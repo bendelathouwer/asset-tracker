@@ -1241,9 +1241,6 @@
     (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/3c0756a8-2dc9-47ff-b857-5c5bc3fcdb68"
       (reference "U2") (unit 1) (value "R-783.3-1.0") (footprint "vanalles:recom psu")
     )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/88e4502f-6c70-4805-b5f4-d3c84eecc203"
-      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
-    )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/7617974e-525f-4b3e-ab92-3111b3733557"
       (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
     )
@@ -1256,20 +1253,8 @@
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/83e5d8e1-d691-4bab-9336-13b62d4d2ddc"
       (reference "#PWR0125") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/db676958-b7c9-4c9a-9ea0-d932b797d1cc"
-      (reference "#PWR0126") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/9f5a35fc-c70d-48fa-b545-631cda408e10"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/e5235352-ff35-4bfb-ad23-2b3882aa8a92"
-      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/9de72270-ec2b-46bd-b4d0-4f6ffc9e2fb1"
-      (reference "#PWR0129") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/02730d2a-f75e-46e4-ae1f-1b2283c8435d"
-      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/380de96c-8712-4fe7-ac1f-4a49dec5bb8f"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
@@ -1286,23 +1271,11 @@
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/2ba2fbae-edc2-44d6-957a-168daaa4be73"
       (reference "C8") (unit 1) (value "100nF") (footprint "vanalles:0603")
     )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/0aa2fe21-1399-45c9-be0e-04a92bed6eb7"
-      (reference "C9") (unit 1) (value "120pF") (footprint "vanalles:0603")
-    )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/382213fa-8cdf-41b2-a203-afbc22f87f07"
       (reference "C10") (unit 1) (value "120nF") (footprint "vanalles:0603")
     )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/dd77934a-0206-40a6-9c23-c96a4d3fe28b"
       (reference "L1") (unit 1) (value "5n6") (footprint "vanalles:0603")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/241a2703-33a7-4dc9-9ae2-1ed7e39b5dfa"
-      (reference "R8") (unit 1) (value "10K") (footprint "vanalles:0603")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/f277bb59-49d3-4810-8612-674cdf9bccef"
-      (reference "U4") (unit 1) (value "bga725l6") (footprint "halfgeleiders:INFINEON_BGA725L6E6327FTSA1")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/ba20ce2d-1ee4-48ef-b719-b1e377324038"
-      (reference "Z1") (unit 1) (value "b4327") (footprint "halfgeleiders:QUALCOMM_B39162B4327P810")
     )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/35d3c9cb-33f9-4eb0-8d63-c39d88309cda"
       (reference "mod2") (unit 1) (value "teseo-LIV") (footprint "Module:SON_STM_TESEO-LIV3R")
