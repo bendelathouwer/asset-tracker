@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid ee856485-8906-481f-87cf-cbbaaa0b7460)
 
   (paper "A4")
 
@@ -1313,8 +1315,8 @@
     (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/b7c7ce4d-8edf-4a4b-934d-f6e877e6a70d"
       (reference "PZ1") (unit 1) (value "buzzer") (footprint "vanalles:PROSIGNAL_ABI-017-RC")
     )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/a765c374-6b35-4665-8c71-882d2a9c4fb7"
-      (reference "Q1") (unit 1) (value "BBS3002") (footprint "halfgeleiders:sot-23,")
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/2971bf5a-0e9e-4278-876e-f6fbbf68d726"
+      (reference "Q?") (unit 1) (value "BSS138") (footprint "")
     )
     (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/3d37a004-5b01-4aa1-bbc4-2ae8b8bd865d"
       (reference "R9") (unit 1) (value "10K") (footprint "vanalles:0603")

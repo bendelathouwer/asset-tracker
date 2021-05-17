@@ -1,0 +1,45 @@
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 4d8c8599-b15f-40f6-bcd5-035025f9c367)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 73.66 62.23) (size 34.29 25.4) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 07d21aa3-81da-4663-acb2-e89e0dba5be0)
+    (property "Sheet name" "mcu" (id 0) (at 73.66 61.5943 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 73.66 88.1387 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "TX" output (at 73.66 72.39 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ca788c58-ce3b-4d7f-8c2d-9d8c622a659a)
+    )
+    (pin "VBAT" input (at 73.66 64.77 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1571508d-7086-47e6-9e92-4420a902615b)
+    )
+    (pin "RX" output (at 73.66 74.93 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 28c8cb90-799b-4ab7-953a-030fb9bf2a98)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/07d21aa3-81da-4663-acb2-e89e0dba5be0/" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/07d21aa3-81da-4663-acb2-e89e0dba5be0/a102a056-568d-4f86-b8d8-207b07e55edf"
+      (reference "U?") (unit 1) (value "nRF52810-QFxx") (footprint "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm")
+    )
+  )
+)

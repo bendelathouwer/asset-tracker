@@ -1,4 +1,4 @@
-635480697988396
+680841560112608
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -98,6 +98,13 @@ ESP3212
 31
 31
 Module
+LGA25S229P5X5_1219X1219X400
+
+
+0
+25
+25
+Module
 Maple_Mini
 Maple Mini, http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html
 Maple Mini
@@ -125,6 +132,13 @@ Pololu Breakout
 0
 16
 16
+Module
+RECOM_RPMB3.3-2.0
+Convertor, DC DC; 25 pin, 12.19 mm L X 12.19 mm W X 3.75 mm H body<p><i>PCB Libraries Packages</i>
+
+0
+25
+25
 Module
 RPi_Pico_SMD_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
@@ -280,12 +294,110 @@ AMASS_XT60PW-M
 4
 3
 connectors_user
+Banana_Jack_1Pin
+Single banana socket, footprint - 6mm drill
+banana socket
+0
+1
+1
+connectors_user
+Banana_Jack_2Pin
+Dual banana socket, footprint - 2 x 6mm drills
+banana socket
+0
+2
+2
+connectors_user
+Banana_Jack_3Pin
+Triple banana socket, footprint - 3 x 6mm drills
+banana socket
+0
+3
+3
+connectors_user
+CUI_PD-30
+3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
+connector 3-pin PD-30 power DIN
+0
+4
+4
+connectors_user
+CUI_PD-30S
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
+0
+8
+5
+connectors_user
+CUI_PD-30S_CircularHoles
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
+0
+8
+5
+connectors_user
+CalTest_CT3151
+Right-angle standard banana jack, http://www.caltestelectronics.com/images/attachments/P315100rH_drawing.pdf
+banana jack horizontal
+0
+4
+1
+connectors_user
+Connector_SFP_and_Cage
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2227302&DocType=Customer+Drawing&DocLang=English
+SFP+ SFP
+0
+40
+21
+connectors_user
+DTF13-12Px
+http://www.te.com/usa-en/product-DTF13-12PA-G003.html
+DEUTSCH DT header 12 pin 
+0
+12
+12
+connectors_user
+FanPinHeader_1x03_P2.54mm_Vertical
+3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 3-pin CPU fan
+0
+3
+3
+connectors_user
+FanPinHeader_1x04_P2.54mm_Vertical
+4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 4-pin CPU fan
+0
+4
+4
+connectors_user
+GB042-34S-H10
+http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF
+34pin SMD connector 
+0
+34
+34
+connectors_user
 GCT_SIM8065-6-1-14-01-A_REVA1
 
 
 0
 11
 11
+connectors_user
+IHI_B6A-PCB-45_Vertical
+https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf
+connector IHI B6A-PCB-45
+0
+49
+1
+connectors_user
+JWT_A3963_1x02_P3.96mm_Vertical
+JWT A3963, 3.96mm pitch Pin head connector (http://www.jwt.com.tw/pro_pdf/A3963.pdf)
+connector JWT A3963 pinhead
+0
+2
+2
 connectors_user
 MOLEX_47553-2001
 
@@ -301,6 +413,13 @@ Molex-47553-0001-0
 10
 10
 connectors_user
+NS-Tech_Grove_1x04_P2mm_Vertical
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+connectors_user
 SAMTEC_FTSH-105-01-F-D-K
 
 
@@ -315,12 +434,54 @@ SAMTEC_FTSH-105-01-F-DV-P-TR
 10
 10
 connectors_user
-SAMTEC_FTSH-105-XX-X-DV
-translated Allegro footprint
-
+SpringContact_Harwin_S1941-46R
+7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
+spring contact emi emc shield
+0
+1
+1
+connectors_user
+Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf
+tag connect programming header pogo pins
+0
+6
+6
+connectors_user
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
+connectors_user
+Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-430%20Datasheet.pdf
+tag connect programming header pogo pins
 0
 10
 10
+connectors_user
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+connectors_user
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip
+Tag-Connect programming header with bottom courtyard for TC2050-NL Clip board ; https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-CLIP_Datasheet_25.pdf
+tag connect programming header pogo pins
+0
+10
+10
+connectors_user
+Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2070-IDC%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+14
+14
 connectors_user
 XT-60_female
 
@@ -378,12 +539,26 @@ sma_right angeld
 5
 2
 connectors_user
+smd screw terminal
+
+
+0
+1
+1
+connectors_user
 tagconnect
 
 
 0
 6
 6
+connectors_user
+ufl connector
+Connector; 4 pin, 2.60 mm L X 2.60 mm W X 1.35 mm H body<p><i>PCB Libraries Packages</i>
+
+0
+4
+2
 connectors_user
 usb_connector
 
@@ -651,6 +826,13 @@ VVSOP
 8
 8
 halfgeleiders
+led 0402
+LED, Chip; 1.00 mm L X 0.50 mm W X 0.35 mm H body<p><i>PCB Libraries Packages</i>
+
+0
+2
+2
+halfgeleiders
 led0603
 
 
@@ -713,6 +895,13 @@ smily 2
 0
 0
 0
+vanalles
+0402
+Resistor, Chip; 1.00 mm L X 0.50 mm W X 0.35 mm H body<p><i>PCB Libraries Packages</i>
+
+0
+2
+2
 vanalles
 0603
 
@@ -2022,6 +2211,13 @@ OSC_CSTNE10M0G550000R0
 0
 3
 3
+vanalles
+PKLCS1212E4001-R1
+Buzzer; 2 pin, 12.00 mm L X 12.00 mm W X 3.00 mm H body<p><i>PCB Libraries Packages</i>
+
+0
+2
+2
 vanalles
 PROSIGNAL_ABI-017-RC
 Buzzer; 2 pin, 13.10 mm L X 13.10 mm W X 7.10 mm H body<p><i>PCB Libraries Packages</i>

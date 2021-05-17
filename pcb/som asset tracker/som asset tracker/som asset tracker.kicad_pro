@@ -349,7 +349,7 @@
     "classes": [
       {
         "bus_width": 6.0,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -410,7 +410,7 @@
       },
       "model_mode": 0
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Z:\\eurocircuits template.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
@@ -419,7 +419,7 @@
   },
   "sheets": [
     [
-      "07300993-d199-4711-88e4-0718cf37230d",
+      "ee856485-8906-481f-87cf-cbbaaa0b7460",
       ""
     ],
     [
