@@ -74,6 +74,15 @@
     (path "/97f52a44-b04a-4937-89a1-d14451356093/c7d67c68-166f-42fc-99f3-10300b727c90"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
+    (path "/97f52a44-b04a-4937-89a1-d14451356093/8c921936-a1b6-441e-b6f9-1e4b88e621ee"
+      (reference "#vbat0101") (unit 1) (value "vbat") (footprint "")
+    )
+    (path "/97f52a44-b04a-4937-89a1-d14451356093/dcb67214-fa12-49bd-adf4-d99c3f45cf72"
+      (reference "#vbat0102") (unit 1) (value "vbat") (footprint "")
+    )
+    (path "/97f52a44-b04a-4937-89a1-d14451356093/94ab53c2-78b3-4b72-aa98-7e6a66d11b25"
+      (reference "#vbat0103") (unit 1) (value "vbat") (footprint "")
+    )
     (path "/97f52a44-b04a-4937-89a1-d14451356093/a2d30f54-4656-4295-92e1-439dd31494c5"
       (reference "BT1") (unit 1) (value "Battery") (footprint "connectors_user:jst 2 pin")
     )
@@ -92,11 +101,14 @@
     (path "/97f52a44-b04a-4937-89a1-d14451356093/e5e5b0dd-343c-4b15-b395-8edf248ce703"
       (reference "D1") (unit 1) (value "LED") (footprint "halfgeleiders:led0603")
     )
+    (path "/97f52a44-b04a-4937-89a1-d14451356093/d788f5f1-9e2e-4d1d-ac89-95b4756bc75b"
+      (reference "J1") (unit 1) (value "USB_B_Mini") (footprint "connectors_user:AMPHENOL_10118192-0001LF")
+    )
     (path "/97f52a44-b04a-4937-89a1-d14451356093/c5b886bb-89c9-44bb-9bf3-7694def4f0d4"
       (reference "L1") (unit 1) (value "L") (footprint "vanalles:0603RL")
     )
     (path "/97f52a44-b04a-4937-89a1-d14451356093/382fc1c4-4e7b-4161-952d-2802bf7d36b2"
-      (reference "L2") (unit 1) (value "2.2uH") (footprint "vanalles:INDM300X300X200L80X50")
+      (reference "L2") (unit 1) (value "2.2uH") (footprint "vanalles:WURTH_744025001")
     )
     (path "/97f52a44-b04a-4937-89a1-d14451356093/e80578ae-74e6-4f16-9dbe-bbb8396d0ad0"
       (reference "R1") (unit 1) (value "100") (footprint "vanalles:0603RL")
@@ -115,18 +127,6 @@
     )
     (path "/97f52a44-b04a-4937-89a1-d14451356093/88b84f3c-75cf-40b0-8102-67cbe0dedea2"
       (reference "U2") (unit 1) (value "TPS63001") (footprint "halfgeleiders:SON50P300X300X100-11N")
-    )
-    (path "/97f52a44-b04a-4937-89a1-d14451356093/9cf117b7-b9d5-4ef8-aa96-196b85b01098"
-      (reference "con1") (unit 1) (value "USB_micro") (footprint "connectors_user:usb_connector")
-    )
-    (path "/97f52a44-b04a-4937-89a1-d14451356093/8c921936-a1b6-441e-b6f9-1e4b88e621ee"
-      (reference "vbat?") (unit 1) (value "vbat") (footprint "")
-    )
-    (path "/97f52a44-b04a-4937-89a1-d14451356093/94ab53c2-78b3-4b72-aa98-7e6a66d11b25"
-      (reference "vbat?") (unit 1) (value "vbat") (footprint "")
-    )
-    (path "/97f52a44-b04a-4937-89a1-d14451356093/dcb67214-fa12-49bd-adf4-d99c3f45cf72"
-      (reference "vbat?") (unit 1) (value "vbat") (footprint "")
     )
     (path "/e2708da0-1354-4f5b-9f3b-3cae8b75bf2e/d59ac232-6be5-4f23-a7c8-d90ec5e0ed8c"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
@@ -192,7 +192,7 @@
       (reference "C14") (unit 1) (value "NM") (footprint "vanalles:0603")
     )
     (path "/e2708da0-1354-4f5b-9f3b-3cae8b75bf2e/37d86bb8-2ecb-4e23-88fd-5c38b5375404"
-      (reference "CON1") (unit 1) (value "jtag") (footprint "connectors_user:SAMTEC_FTSH-105-01-F-D-K")
+      (reference "CON1") (unit 1) (value "jtag") (footprint "connectors_user:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical")
     )
     (path "/e2708da0-1354-4f5b-9f3b-3cae8b75bf2e/57e27c60-a2fc-43c3-a2d4-97fe428fdac6"
       (reference "R5") (unit 1) (value "0") (footprint "vanalles:0603RL")
@@ -201,7 +201,7 @@
       (reference "U3") (unit 1) (value "nRF52810-QFxx") (footprint "halfgeleiders:nrf")
     )
     (path "/e2708da0-1354-4f5b-9f3b-3cae8b75bf2e/33ad82ab-7e37-4553-a58c-96d93b67eb46"
-      (reference "Y1") (unit 1) (value "326MhZ") (footprint "vanalles:OSCCC200X160X50L55X65")
+      (reference "Y1") (unit 1) (value "326MhZ") (footprint "vanalles:OSCCC320X250X90L80X100N")
     )
   )
 )

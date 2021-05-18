@@ -1,4 +1,4 @@
-1090733375138648
+1093976008087386
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -657,6 +657,13 @@ AMASS_XT60PW-M
 0
 4
 3
+connectors_user
+AMPHENOL_10118192-0001LF
+CONNECTOR; 11 PIN, 7.50 MM L X 5.05 MM W X 2.70 MM H BODYPCB LIBRARIES PACKAGES
+CONNECTOR; 11 PIN, 7.50 MM L X 5.05 MM W X 2.70 MM H BODYPCB LIBRARIES PACKAGES
+0
+11
+6
 connectors_user
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -3936,6 +3943,13 @@ mounting hole 8.4mm m8
 vanalles
 OSCCC200X160X50L55X65
 Oscillator, Corner Concave; 2.00 mm L X 1.60 mm W X 0.50 mm H body<p><i>PCB Libraries Packages</i>
+
+0
+4
+4
+vanalles
+OSCCC320X250X90L80X100N
+Oscillator, Corner Concave; 3.20 mm L X 2.50 mm W X 0.90 mm H body<p><i>PCB Libraries Packages</i>
 
 0
 4

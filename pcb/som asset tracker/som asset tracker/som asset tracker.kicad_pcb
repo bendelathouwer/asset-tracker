@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210228) (generator pcbnew)
+(kicad_pcb (version 20210424) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -86,7 +86,6 @@
       (outputdirectory "../../../som asset tracker output/assembly output/")
     )
   )
-
 
   (net 0 "")
   (net 1 "GND")
@@ -382,9 +381,9 @@
     (fp_line (start -3.825 1.265) (end -3.825 -0.005) (layer "F.SilkS") (width 0.12) (tstamp 2b6700fe-468e-4fd8-8aa6-f4d16dd63caa))
     (fp_line (start 3.795 -1.275) (end 3.795 1.265) (layer "F.SilkS") (width 0.12) (tstamp bb40dd36-55e5-4947-9418-48e97d372895))
     (fp_line (start 3.795 1.265) (end -3.825 1.265) (layer "F.SilkS") (width 0.12) (tstamp eb5ea476-7ff0-439c-8eca-3c7ba340e84a))
-    (pad "1" thru_hole rect (at -2.555 -0.005 180) (locked) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect locked (at -2.555 -0.005 180) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
       (net 20 "Net-(J2-Pad1)") (pinfunction "Pin_1") (tstamp 5c558929-4a92-487c-9f8a-8ac2956cf8ee))
-    (pad "2" thru_hole circle (at 2.445 -0.005 180) (locked) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 2.445 -0.005 180) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Pin_2") (tstamp df87e9d4-1ca1-4d77-9ee0-dfe9801f460d))
     (model "${KICAD6_3DMODEL_DIR}/pxc_1757242_06_MSTBA-2-5-2-G-5-08_3D.stp"
       (offset (xyz -6.055 2.005 0))
@@ -481,7 +480,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp b44c4c05-6a00-4c4d-9d4b-77b0ef9d4d67))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -511,7 +510,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 2ec056a6-ca75-452a-9ddf-2cd16d0fc071))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -541,7 +540,7 @@
     (pad "2" smd roundrect (at 0.635 0.005) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(C10-Pad1)") (tstamp 2b0e26df-f906-49a9-a376-9f7ec8d9c703))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -610,7 +609,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 34 "/SCL") (tstamp a7e7ea93-bc95-426d-999c-cf81747db24c))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -640,7 +639,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 0a3cb205-5efe-48bb-9d42-958beeb799d8))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -777,9 +776,9 @@
     (fp_line (start -3.825 1.265) (end -3.825 -0.005) (layer "F.SilkS") (width 0.12) (tstamp dd43211b-3beb-4b26-aac4-6bc4fd433cf9))
     (fp_line (start 3.795 -1.275) (end 3.795 1.265) (layer "F.SilkS") (width 0.12) (tstamp ebd77194-4cf1-4b61-ad52-1ddf01478e7a))
     (fp_line (start 3.795 1.265) (end -3.825 1.265) (layer "F.SilkS") (width 0.12) (tstamp f5a4eeea-f392-452f-aac0-fe054746eb41))
-    (pad "1" thru_hole rect (at -2.555 -0.005 90) (locked) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect locked (at -2.555 -0.005 90) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Pin_1") (tstamp 16f5ffab-db38-4219-900d-523c7e70717e))
-    (pad "2" thru_hole circle (at 2.445 -0.005 90) (locked) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 2.445 -0.005 90) (size 2 2) (drill 1.4) (layers *.Cu *.Mask)
       (net 19 "Net-(J1-Pad2)") (pinfunction "Pin_2") (tstamp b62b85ba-f9e2-44c5-9b6b-5428207fa08a))
     (model "${KICAD6_3DMODEL_DIR}/pxc_1757242_06_MSTBA-2-5-2-G-5-08_3D.stp"
       (offset (xyz 5.945 -1.995 0))
@@ -861,7 +860,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 33 "/SDA") (tstamp b847558c-5a00-4ac0-9606-ea30da445854))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -985,7 +984,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp bceaba72-c6ab-4308-9606-09a4075ef108))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1138,7 +1137,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp ea76d814-2ff3-4e2d-875b-dc549b23386d))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1248,7 +1247,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 0ef7440d-8f75-4483-bc63-77bfc8be1718))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1420,7 +1419,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp e2b7da45-bf09-40e2-8c83-47be0efb3d63))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1705,7 +1704,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "Net-(R10-Pad2)") (tstamp 9c2e695a-ad04-49fc-8a44-4ac1a13e59c4))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1735,7 +1734,7 @@
     (pad "2" smd roundrect (at 0.635 0.005) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp f0aa03f9-c222-4364-9cb8-9298719359fc))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1765,7 +1764,7 @@
     (pad "2" smd roundrect (at 0.635 0.005) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "Net-(AE1-Pad1)") (tstamp 81e64c78-1ac0-4d29-9ccf-dd0509d4233e))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1873,7 +1872,7 @@
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 806d8307-0300-404f-a2d7-bbc2a2d32b79))
     (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.004999999999999999 0))
+      (offset (xyz -0.135 -0.005 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
