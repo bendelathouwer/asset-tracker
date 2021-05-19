@@ -780,7 +780,7 @@
     (property "Value" "sma" (id 1) (at 187.96 58.5469 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "connectors_user:sma_right angeld" (id 2) (at 184.15 55.88 0)
+    (property "Footprint" "connectors_user:sma juist" (id 2) (at 184.15 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 184.15 55.88 0)

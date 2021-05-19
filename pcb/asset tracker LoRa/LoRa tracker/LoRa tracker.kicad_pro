@@ -443,12 +443,12 @@
       "nrf"
     ],
     [
-      "0e73f55d-2435-4bae-aa12-8b99ef7d3bab",
-      "mcu"
-    ],
-    [
       "4254a827-1935-476e-a2a2-5bc9aad7b66e",
       "LoRa_RFM"
+    ],
+    [
+      "0e73f55d-2435-4bae-aa12-8b99ef7d3bab",
+      "mcu"
     ]
   ],
   "text_variables": {}
