@@ -152,7 +152,7 @@
 
   (footprint "vanalles:0603" (layer "F.Cu")
     (tedit 60741813) (tstamp 01354ac4-7048-44d2-a4cd-e7b8f0641a08)
-    (at 93.85 59.73 90)
+    (at 93.855 58.455 90)
     (property "Sheetfile" "mcu.kicad_sch")
     (property "Sheetname" "mcu")
     (path "/e2708da0-1354-4f5b-9f3b-3cae8b75bf2e/9b3c24a1-e035-4dbe-900b-0fa4fa2a0813")
@@ -160,7 +160,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3fb6a69b-472b-4443-8768-2488566f8759)
     )
-    (fp_text value "12pF" (at 0.127 0.005 90) (layer "F.Fab")
+    (fp_text value "12pF" (at 1.792 0.04 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ca71687c-a109-497e-84b7-5dbb951980eb)
     )
@@ -170,11 +170,11 @@
     (fp_line (start 1.27 0.64) (end -1.27 0.64) (layer "F.SilkS") (width 0.12) (tstamp b02f4da0-76a3-4938-8243-4fb23a846996))
     (fp_line (start -1.27 0.005) (end -1.27 -0.63) (layer "F.SilkS") (width 0.12) (tstamp c8c67216-f998-44e4-a8a7-2627bd09b47a))
     (pad "1" smd roundrect (at -0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 10 "Net-(C12-Pad1)") (pintype "passive") (tstamp 3ce9cde8-26a2-4b93-8f05-b854e27e8d99))
+      (net 10 "Net-(C12-Pad1)") (tstamp 3ce9cde8-26a2-4b93-8f05-b854e27e8d99))
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 4 "GND") (pintype "passive") (tstamp 023e43c5-2a4e-4460-b49d-061041780f8e))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+      (net 4 "GND") (tstamp 023e43c5-2a4e-4460-b49d-061041780f8e))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -203,8 +203,8 @@
       (net 1 "+3V3") (pintype "passive") (tstamp b2ff2204-8517-4178-bd09-c99eb3665b10))
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 1034f51b-952f-410a-a1bf-1b3f394c8317))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -379,7 +379,7 @@
       (net 14 "VBUS") (pinfunction "VDD") (pintype "passive") (tstamp 559d70ff-3d51-4f2f-b6aa-2adc7e29d519))
     (pad "5" smd rect (at 1.33 -0.945) (size 0.55 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "Net-(R3-Pad1)") (pinfunction "Prog") (pintype "passive") (tstamp ef8f0fe8-2703-4ea8-ae82-92e3a8d148c6))
-    (model "${KICAD6_3DMODEL_DIR}/SOT23-5-2.step"
+    (model "${KICAD_USER_MADE}/SOT23-5-2.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -409,8 +409,8 @@
       (net 1 "+3V3") (pintype "passive") (tstamp 659efc51-ce87-45e5-ae8d-bc341e4e54ee))
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 4bfcafe9-afce-4366-8a5d-0a72c23cee11))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -439,8 +439,8 @@
       (net 24 "Net-(R2-Pad1)") (pintype "passive") (tstamp 581db8aa-8b7f-46a4-956c-b12707f0ac70))
     (pad "2" smd roundrect (at 0.63 0 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "Net-(D1-Pad1)") (pintype "passive") (tstamp fa236d6f-015e-4daf-ad89-4064c7f8db03))
-    (model "${KICAD6_3DMODEL_DIR}/RES_1609-0603.step"
-      (offset (xyz -0.14 0 0))
+    (model "${KICAD_USER_MADE}/RES_1609-0603.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -469,8 +469,8 @@
       (net 3 "VBAT") (pintype "passive") (tstamp beccff50-6286-4cd6-9eae-5ae1784b0905))
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp e0ad0a60-9c5b-4a37-8397-c030a0f51a80))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -560,8 +560,8 @@
       (net 4 "GND") (pinfunction "Shield") (pintype "passive") (tstamp aea583bc-7894-4a21-8faf-1766b3bb29f1))
     (pad "6" smd rect (at -1.19888 0.37338) (size 1.89992 1.89992) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pinfunction "Shield") (pintype "passive") (tstamp e5a98880-9931-4ae9-94c7-c9935f3b2b79))
-    (model "${KICAD6_3DMODEL_DIR}/Micro_usb_47346-0001.step"
-      (offset (xyz 0 0 1.1))
+    (model "${KICAD_USER_MADE}/Micro_usb_47346-0001.step"
+      (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -590,8 +590,8 @@
       (net 4 "GND") (pintype "passive") (tstamp 24fe859f-03a0-4ce5-af82-ac32ab287b13))
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+3V3") (pintype "passive") (tstamp a28cb379-331c-433c-8300-4f3445122d6e))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -620,8 +620,8 @@
       (net 5 "Net-(C2-Pad1)") (pintype "passive") (tstamp 29959820-664f-4f44-99c4-2eab2a2d658f))
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp fd9e5981-4771-4df1-b030-6971147f88f7))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -650,8 +650,8 @@
       (net 4 "GND") (pintype "passive") (tstamp 2bc4ef60-c239-47c7-bd37-651884d7e362))
     (pad "2" smd roundrect (at 0.635 0.005 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(C8-Pad2)") (pintype "passive") (tstamp 7d330f20-5ba9-4e85-93a5-ee7ea3ac5d32))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -680,8 +680,8 @@
       (net 5 "Net-(C2-Pad1)") (pintype "passive") (tstamp 57d93ca7-1dab-4df3-9c4a-510aabcaf138))
     (pad "2" smd roundrect (at 0.63 0) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "VBAT") (pintype "passive") (tstamp e689f8ea-c0e2-441f-a138-0d1633282ce3))
-    (model "${KICAD6_3DMODEL_DIR}/RES_1609-0603.step"
-      (offset (xyz -0.14 0 0))
+    (model "${KICAD_USER_MADE}/RES_1609-0603.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -710,8 +710,8 @@
       (net 9 "Net-(C11-Pad1)") (pintype "passive") (tstamp 94491268-b6be-4155-acc8-564ca27cbfae))
     (pad "2" smd roundrect (at 0.63 0 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "Net-(AE1-Pad1)") (pintype "passive") (tstamp a44de106-11ed-46e1-affb-228509df8c39))
-    (model "${KICAD6_3DMODEL_DIR}/RES_1609-0603.step"
-      (offset (xyz -0.14 0 0))
+    (model "${KICAD_USER_MADE}/RES_1609-0603.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -834,8 +834,8 @@
       (net 4 "GND") (pintype "passive") (tstamp 01ec1ba8-bc24-4faa-bcc0-667706042108))
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+3V3") (pintype "passive") (tstamp b34a03ef-b48d-4a7b-9ed7-887a531f2b58))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1003,6 +1003,11 @@
       (net 1 "+3V3") (pinfunction "VDD") (pintype "passive") (tstamp 129836b5-3ea2-4ddb-a1f2-a538380129aa))
     (pad "49" smd rect (at 0 0 90) (size 4.6 4.6) (layers "F.Cu" "F.Mask")
       (net 4 "GND") (pinfunction "VSS") (pintype "passive") (tstamp b9298d2e-cd06-4c87-b0f2-728cbc821950))
+    (model "${KICAD_USER_MADE}/QFN48_6x6.step"
+      (offset (xyz 0 1.24 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "vanalles:0603RL" (layer "F.Cu")
@@ -1011,7 +1016,7 @@
     (property "Sheetfile" "voeding.kicad_sch")
     (property "Sheetname" "voeding")
     (path "/97f52a44-b04a-4937-89a1-d14451356093/0b4e0ebb-cca1-425f-b9dc-24b4a0963cf5")
-    (fp_text reference "R4" (at 0.376 -1.27) (layer "F.SilkS")
+    (fp_text reference "R4" (at -0.01 -1.43) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 224cae11-1474-4b45-bd6c-23353a451cf2)
     )
@@ -1028,8 +1033,8 @@
       (net 4 "GND") (pintype "passive") (tstamp 22ccdaa6-95f5-4e4b-87cd-54453d6f8e24))
     (pad "2" smd roundrect (at 0.63 0 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(R3-Pad2)") (pintype "passive") (tstamp daefdc48-6f7b-4bea-9e06-e161e6373071))
-    (model "${KICAD6_3DMODEL_DIR}/RES_1609-0603.step"
-      (offset (xyz -0.14 0 0))
+    (model "${KICAD_USER_MADE}/RES_1609-0603.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1080,6 +1085,11 @@
       (net 1 "+3V3") (pinfunction "FB") (pintype "input") (tstamp 4517b746-1882-44f9-a6ff-74da890ce2ed))
     (pad "11" smd rect (at 0 0) (size 1.651 2.3876) (layers "F.Cu" "F.Paste" "F.Mask" "Dwgs.User")
       (net 4 "GND") (pinfunction "PGND") (pintype "passive") (tstamp d9527093-6383-435d-aac0-9e9407395dbc))
+    (model "${KICAD_USER_MADE}/10WSON.step"
+      (offset (xyz 1.5 1.5 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 180))
+    )
   )
 
   (footprint "vanalles:0603" (layer "F.Cu")
@@ -1105,8 +1115,8 @@
       (net 11 "Net-(C13-Pad1)") (pintype "passive") (tstamp a135d53e-309f-478c-8ed9-95758659beba))
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 691d7513-17c6-438e-9011-cd97aff7d4d1))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1135,8 +1145,8 @@
       (net 25 "Net-(R3-Pad1)") (pintype "passive") (tstamp 402298f3-78ff-431e-9c02-de58bf99b9a6))
     (pad "2" smd roundrect (at 0.63 0 90) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(R3-Pad2)") (pintype "passive") (tstamp ae33b737-7931-4d2d-8009-17f8f264e638))
-    (model "${KICAD6_3DMODEL_DIR}/RES_1609-0603.step"
-      (offset (xyz -0.14 0 0))
+    (model "${KICAD_USER_MADE}/RES_1609-0603.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1166,8 +1176,8 @@
       (net 18 "Net-(J1-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 58ad14bc-a2d7-4dc3-9481-d579ea01b68a))
     (pad "2" smd roundrect (at 0.63 0 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "VBUS") (pinfunction "2") (pintype "passive") (tstamp 6622d036-2a44-4990-97eb-fd4faf810b84))
-    (model "${KICAD6_3DMODEL_DIR}/RES_1609-0603.step"
-      (offset (xyz -0.14 0 0))
+    (model "${KICAD_USER_MADE}/RES_1609-0603.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1179,7 +1189,7 @@
     (property "Sheetfile" "mcu.kicad_sch")
     (property "Sheetname" "mcu")
     (path "/e2708da0-1354-4f5b-9f3b-3cae8b75bf2e/e47c3501-f1d0-4019-9cc1-b6668898222e")
-    (fp_text reference "C10" (at 0.635 -1.265) (layer "F.SilkS")
+    (fp_text reference "C10" (at -3.12 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 836cfb3a-207b-4467-a0b7-a398619a722c)
     )
@@ -1196,8 +1206,8 @@
       (net 4 "GND") (pintype "passive") (tstamp 8f3e1de4-b610-4358-9f78-83319fbe7391))
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(C10-Pad2)") (pintype "passive") (tstamp 6259283d-6fcd-449d-9dde-3dacbb4ab78c))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1237,7 +1247,7 @@
       (net 13 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp dd46fdb7-ca01-4d41-ac27-d9ab328a8df8))
     (pad "2" smd roundrect (at 0.8125 0 180) (size 1.225 0.85) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "VBUS") (pinfunction "A") (pintype "passive") (tstamp 8d1e6bd9-d4b4-425c-9540-7d286df474c1))
-    (model "${KICAD6_3DMODEL_DIR}/LED_0603_WS.STEP"
+    (model "${KICAD_USER_MADE}/LED_0603_WS.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1267,8 +1277,8 @@
       (net 9 "Net-(C11-Pad1)") (pintype "passive") (tstamp d2371a0b-aeb3-468a-8c8f-ada0c45517d0))
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp bebecfe2-6bf7-498b-872a-2c5d13c018a1))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1297,8 +1307,8 @@
       (net 2 "Net-(AE1-Pad1)") (pintype "passive") (tstamp 4b81763d-28f6-4707-a9c0-ba297a04ce7a))
     (pad "2" smd roundrect (at 0.635 0.005 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 2d167826-5ab2-4cc3-9e40-1b843c425e66))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1352,6 +1362,11 @@
       (net 22 "Net-(L2-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 4f0328b3-3694-46e0-a60f-5ba5d7a7db3d))
     (pad "2" smd rect (at 1.1 0 90) (size 1 3.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "Net-(L2-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 5754ade3-bd40-4a57-b2ab-a2ee9b866b3b))
+    (model "${KICAD_USER_MADE}/Murata_LQH3NP_M0.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "vanalles:0603" (layer "F.Cu")
@@ -1377,8 +1392,8 @@
       (net 4 "GND") (pintype "passive") (tstamp 2fb40dfe-ddab-414d-a42e-221d6bca1019))
     (pad "2" smd roundrect (at 0.635 0.005 180) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+3V3") (pintype "passive") (tstamp ca4cc527-9d56-4826-8324-171271ef87c5))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1407,8 +1422,8 @@
       (net 4 "GND") (pintype "passive") (tstamp 8bd3fccc-e642-4975-997a-73b9f6ae4334))
     (pad "2" smd roundrect (at 0.635 -0.005 180) (size 1 1.1) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "Net-(C9-Pad2)") (pintype "passive") (tstamp 74c6eb01-18ad-4f82-a33a-059aee6e7c4e))
-    (model "${KICAD6_3DMODEL_DIR}/0603 SMD Capacitor.step"
-      (offset (xyz -0.135 -0.005 0))
+    (model "${KICAD_USER_MADE}/0603 SMD Capacitor.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -1476,7 +1491,7 @@
       (net 4 "GND") (pinfunction "-") (pintype "passive") (tstamp 659f34ce-c6f7-45ca-8e9d-c0f47df47aa9))
     (pad "M" smd rect (at -3.35 -2.6) (size 1.5 3.4) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d90eada2-d771-4846-ab40-3df20a20c4a4))
     (pad "N" smd rect (at 3.35 -2.6) (size 1.5 3.4) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp ab20db26-60dc-42d0-82e7-12d77a203590))
-    (model "${KICAD6_3DMODEL_DIR}/S2B-PH-SM4-TB_step.step"
+    (model "${KICAD_USER_MADE}/S2B-PH-SM4-TB_step.step"
       (offset (xyz 0 -4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1558,6 +1573,7 @@
   (segment (start 99.94 105.18) (end 99.59 104.83) (width 0.5) (layer "B.Cu") (net 3) (tstamp d984869b-9a3d-4673-a892-3413a1dfcbc0))
   (segment (start 99.05 67.87) (end 100.05 66.87) (width 0.25) (layer "F.Cu") (net 4) (tstamp 00b2f2fd-adb9-4177-8cc6-0294821253fd))
   (segment (start 94.24 63.7) (end 94.24 65.69) (width 0.25) (layer "F.Cu") (net 4) (tstamp 0838bd36-ed6d-4ea9-b74e-f09041b18492))
+  (segment (start 93.86 57.82) (end 93.86 55.76) (width 0.25) (layer "F.Cu") (net 4) (tstamp 099cb597-dfc8-4b2e-b8a3-0045747f33b0))
   (segment (start 115.585 66.23) (end 115.82 66.23) (width 0.25) (layer "F.Cu") (net 4) (tstamp 0f8092fe-e01f-4623-8030-d396404880e4))
   (segment (start 99.01 60.84) (end 99.01 57.76) (width 0.25) (layer "F.Cu") (net 4) (tstamp 10622455-5c5d-4ee5-b6d6-9c91193b044e))
   (segment (start 91.88 61.84) (end 91.88 61.07) (width 0.25) (layer "F.Cu") (net 4) (tstamp 110e0768-a141-4bea-b310-dd0ee704b40c))
@@ -1580,7 +1596,6 @@
   (segment (start 99.588 90.672) (end 99.08 91.18) (width 0.25) (layer "F.Cu") (net 4) (tstamp 400f78ec-6fda-495b-9b76-f927c88caec7))
   (segment (start 101.2188 115.689841) (end 101.91984 116.390881) (width 0.25) (layer "F.Cu") (net 4) (tstamp 412e9505-1a88-4111-bd4b-4ac829fce1e3))
   (segment (start 111.04 101.58) (end 111.07 101.61) (width 0.25) (layer "F.Cu") (net 4) (tstamp 41a7aedc-fad0-49e0-b185-8b25280ddabf))
-  (segment (start 93.855 59.095) (end 93.855 57.395) (width 0.25) (layer "F.Cu") (net 4) (tstamp 579a8be1-babf-4a2d-ae0a-3f7db18b2fbf))
   (segment (start 101.2188 113.843261) (end 101.2188 110.7212) (width 0.25) (layer "F.Cu") (net 4) (tstamp 58773c01-a22a-4a9c-806a-cfffe5de160f))
   (segment (start 100.725 84.625) (end 100.8 84.7) (width 0.25) (layer "F.Cu") (net 4) (tstamp 5a95fd5c-df52-4d3e-a453-dcbe9064cd3b))
   (segment (start 99.85 63.92) (end 99.85 66.46) (width 0.25) (layer "F.Cu") (net 4) (tstamp 5b8a82d6-5216-4a4a-9e0a-5e9bd57c76b3))
@@ -1589,13 +1604,14 @@
   (segment (start 99.255 84.625) (end 100.725 84.625) (width 0.25) (layer "F.Cu") (net 4) (tstamp 6c868d6e-0d17-413d-8192-06b3498f18c0))
   (segment (start 90.845 94.445) (end 90.82 94.42) (width 0.25) (layer "F.Cu") (net 4) (tstamp 7208e623-d7cc-4ac7-b9e5-54900ac4843f))
   (segment (start 97.1 67.87) (end 99.05 67.87) (width 0.25) (layer "F.Cu") (net 4) (tstamp 8364f068-1b3a-4655-9d4e-8e03a379b2b5))
-  (segment (start 93.855 57.395) (end 93.89 57.36) (width 0.25) (layer "F.Cu") (net 4) (tstamp 85a7e398-01d6-45b8-af91-33a7cb12ceed))
+  (segment (start 93.89 55.73) (end 93.925 55.695) (width 0.25) (layer "F.Cu") (net 4) (tstamp 85a7e398-01d6-45b8-af91-33a7cb12ceed))
   (segment (start 99.01 57.76) (end 99.01 55.04) (width 0.25) (layer "F.Cu") (net 4) (tstamp 8c31692c-ffd4-4f22-8302-cf0f66100c67))
   (segment (start 104.405 88.645) (end 104.405 86.925) (width 0.25) (layer "F.Cu") (net 4) (tstamp 928e2559-3522-4fa3-a6f0-31506ee33a99))
   (segment (start 116.87 66.23) (end 116.9 66.26) (width 0.25) (layer "F.Cu") (net 4) (tstamp 9560cd8c-346a-4435-b023-9247eaaa05f9))
   (segment (start 104.405 86.925) (end 104.43 86.9) (width 0.25) (layer "F.Cu") (net 4) (tstamp 9c616701-5938-47d0-89df-a21ad62751d9))
   (segment (start 101.2188 110.7212) (end 101.22 110.72) (width 0.25) (layer "F.Cu") (net 4) (tstamp 9fff47ed-22d6-49b9-a32a-49f674621123))
   (segment (start 100.875 72.375) (end 100.875 72.875) (width 0.25) (layer "F.Cu") (net 4) (tstamp a409548d-c546-4bf3-8cd9-0389dd9abf54))
+  (segment (start 93.86 55.76) (end 93.925 55.695) (width 0.25) (layer "F.Cu") (net 4) (tstamp a5893c44-cde1-4507-823a-ff0dec45d8f8))
   (segment (start 91.17 68.52) (end 90.915 68.265) (width 0.25) (layer "F.Cu") (net 4) (tstamp a5e73961-052d-45f0-9a79-d3b63b34b3fd))
   (segment (start 99.01 57.76) (end 97.94 57.76) (width 0.25) (layer "F.Cu") (net 4) (tstamp ac0bab7f-35b8-433f-9911-c4dce6613cc9))
   (segment (start 114.625 65.27) (end 115.585 66.23) (width 0.25) (layer "F.Cu") (net 4) (tstamp b449cb2b-4199-4f55-8174-e674464ee03d))
@@ -1620,7 +1636,7 @@
   (via (at 94.13 65.8) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 0a39406e-57f6-454d-920d-fbbe2d205aea))
   (via (at 99.04 91.94) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 2f459ddf-82ce-4533-b5d0-ceab032e633a))
   (via (at 99.85 66.46) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 2fc29ee6-bad1-49f5-9d49-2c15c71a4881))
-  (via (at 93.89 57.36) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 5c3733a1-9f5a-4dce-9107-2c87aaea9cda))
+  (via (at 93.925 55.695) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 5c3733a1-9f5a-4dce-9107-2c87aaea9cda))
   (via (at 111.27 65.92) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 6cf30e08-e98e-4176-820d-a865461010cf))
   (via (at 116.9 66.26) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 9a5f2ad3-5b5e-4243-8180-8f62333c86c0))
   (via (at 101.22 110.72) (size 0.6) (drill 0.25) (layers "F.Cu" "B.Cu") (net 4) (tstamp 9b15be8a-41f1-416f-bf0a-335eb32c459a))
@@ -1666,10 +1682,13 @@
   (segment (start 100.28 60.84) (end 100.25 60.87) (width 0.25) (layer "F.Cu") (net 9) (tstamp 2573f71d-3b45-4ffa-a6f9-0ac234738d7f))
   (segment (start 100.28 58.6) (end 100.3 58.58) (width 0.25) (layer "F.Cu") (net 9) (tstamp 26e22f27-6483-4bd7-8389-5aa83251f6fe))
   (segment (start 100.25 60.87) (end 100.25 63.92) (width 0.25) (layer "F.Cu") (net 9) (tstamp a00674c2-02cd-4836-a0b2-1e3c1ee13397))
-  (segment (start 93.855 60.365) (end 93.855 61.455) (width 0.25) (layer "F.Cu") (net 10) (tstamp 0dbc4d9d-a680-4ab2-b627-f58bbbc63dd7))
+  (segment (start 93.855 60.695) (end 93.855 61.455) (width 0.25) (layer "F.Cu") (net 10) (tstamp 0f93f621-80f5-4ed3-b54e-f60de993b820))
+  (segment (start 93.855 60.365) (end 93.855 60.695) (width 0.25) (layer "F.Cu") (net 10) (tstamp 3866b2be-edd7-44f0-8bd3-2127f572ed34))
   (segment (start 98.65 63.92) (end 98.65 63.100006) (width 0.25) (layer "F.Cu") (net 10) (tstamp 3be83740-8601-4eed-99e0-bb761c5ab23a))
+  (segment (start 93.86 59.09) (end 93.86 60.69) (width 0.25) (layer "F.Cu") (net 10) (tstamp 799578b4-e652-4e47-88b1-645cf2b76436))
   (segment (start 95.914994 60.365) (end 93.855 60.365) (width 0.25) (layer "F.Cu") (net 10) (tstamp 873117c8-6cfe-4b08-a0ac-9590c3032720))
   (segment (start 93.855 61.455) (end 94.24 61.84) (width 0.25) (layer "F.Cu") (net 10) (tstamp a2b39ef2-abbb-405b-91af-08ea68c88708))
+  (segment (start 93.86 60.69) (end 93.855 60.695) (width 0.25) (layer "F.Cu") (net 10) (tstamp a7a18643-5c3d-4f02-ad28-fc9e65ae99e1))
   (segment (start 98.65 63.100006) (end 95.914994 60.365) (width 0.25) (layer "F.Cu") (net 10) (tstamp bf6f4005-b970-4c32-b067-74ab36b47393))
   (segment (start 92.185 66.425) (end 92.185 64.344795) (width 0.25) (layer "F.Cu") (net 11) (tstamp 1736690b-be38-4ba9-9f25-962a722a1bb7))
   (segment (start 91.520205 63.68) (end 90.55 63.68) (width 0.25) (layer "F.Cu") (net 11) (tstamp 22c17588-81c4-4c05-bd3a-9591399239bd))
