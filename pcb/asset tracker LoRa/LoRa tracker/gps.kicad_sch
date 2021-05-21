@@ -436,6 +436,11 @@
   (no_connect (at 111.76 66.04) (uuid b5aea993-8770-4938-abaf-11ea1c05ec0f))
   (no_connect (at 143.51 81.28) (uuid c5945273-d3d9-4d04-865e-291fcc1438cd))
 
+  (bus_entry (at 234.95 41.91) (size 2.54 2.54)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (uuid e62ba0b3-9114-41e0-84fe-b3577f31d95e)
+  )
+
   (wire (pts (xy 72.39 58.42) (xy 77.47 58.42))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 178b4095-b38d-4290-b5bc-8bdf43e4da58)
@@ -780,7 +785,7 @@
     (property "Value" "sma" (id 1) (at 187.96 58.5469 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "connectors_user:sma juist" (id 2) (at 184.15 55.88 0)
+    (property "Footprint" "connectors_user:ufl connector" (id 2) (at 184.15 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 184.15 55.88 0)

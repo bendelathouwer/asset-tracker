@@ -1393,7 +1393,7 @@
     (property "Value" "Antenna_Shield" (id 1) (at 233.68 71.2469 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "connectors_user:sma juist" (id 2) (at 229.87 68.58 0)
+    (property "Footprint" "connectors_user:ufl connector" (id 2) (at 229.87 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 229.87 68.58 0)
