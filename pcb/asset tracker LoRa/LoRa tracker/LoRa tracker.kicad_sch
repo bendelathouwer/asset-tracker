@@ -1676,7 +1676,7 @@
       (reference "R10") (unit 1) (value "10K") (footprint "vanalles:0603RL")
     )
     (path "/0e73f55d-2435-4bae-aa12-8b99ef7d3bab/081080c3-a9b9-4cc6-8433-a9fae302bf2c"
-      (reference "R11") (unit 1) (value "R_Small_US") (footprint "vanalles:0603RL")
+      (reference "R11") (unit 1) (value "10K") (footprint "vanalles:0603RL")
     )
     (path "/c700dc30-dbea-4934-a0d3-e9dc42835f75"
       (reference "TP1") (unit 1) (value "RESET") (footprint "vanalles:TestPoint_Pad_D3.0mm")

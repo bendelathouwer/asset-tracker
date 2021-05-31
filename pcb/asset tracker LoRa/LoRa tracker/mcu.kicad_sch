@@ -1359,7 +1359,7 @@
     (property "Reference" "R11" (id 0) (at 270.51 84.4549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small_US" (id 1) (at 270.51 86.9949 0)
+    (property "Value" "10K" (id 1) (at 270.51 86.9949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "vanalles:0603RL" (id 2) (at 267.97 85.09 0)
