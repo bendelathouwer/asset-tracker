@@ -799,7 +799,7 @@
     (property "Reference" "#PWR0114" (id 0) (at 114.3 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 114.3 120.65 0))
+    (property "Value" "GND" (id 1) (at 114.3 123.19 0))
     (property "Footprint" "" (id 2) (at 114.3 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1103,32 +1103,14 @@
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/07300993-d199-4711-88e4-0718cf37230d/" (page "2"))
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/" (page "3"))
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/" (page "4"))
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/" (page "5"))
-    (path "/69795db9-53f5-4146-9976-6650e4325c8a/" (page "6"))
+    (path "/07300993-d199-4711-88e4-0718cf37230d" (page "2"))
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1" (page "3"))
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0" (page "4"))
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb" (page "5"))
+    (path "/69795db9-53f5-4146-9976-6650e4325c8a" (page "6"))
   )
 
   (symbol_instances
-    (path "/1973c322-274f-4fe6-a47b-e68d3dc7d39c"
-      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4ac1dc9d-757c-4417-8b6e-aee54c063b1d"
-      (reference "J3") (unit 1) (value "Conn_01x05_Male") (footprint "connectors_user:5pin header")
-    )
-    (path "/e075af15-d443-44aa-8611-ae43a2ff5c18"
-      (reference "J4") (unit 1) (value "Conn_01x05_Male") (footprint "connectors_user:5pin header")
-    )
-    (path "/01d0e796-edf8-42a4-a5ab-13e6ee66de5e"
-      (reference "J5") (unit 1) (value "Conn_01x05_Male") (footprint "connectors_user:5pin header")
-    )
-    (path "/4396d9d5-12c6-47b6-9eb2-1d11404c153d"
-      (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "connectors_user:2 pin header")
-    )
-    (path "/511c246a-148d-42fc-88d2-6334d6b817f1"
-      (reference "J7") (unit 1) (value "Conn_01x02_Male") (footprint "connectors_user:2 pin header")
-    )
     (path "/07300993-d199-4711-88e4-0718cf37230d/f0729df7-95a5-48b6-8ee0-6a122c069f3b"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -1150,45 +1132,6 @@
     (path "/07300993-d199-4711-88e4-0718cf37230d/57da2046-b2d4-4f9c-a768-de79789f7f46"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/462c9b9d-622b-42c4-a540-6ab2cf21de07"
-      (reference "#PWR0112") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/4fc699bc-73e3-41df-8d37-e6529b1bd6ea"
-      (reference "BT1") (unit 1) (value "Battery") (footprint "vanalles:3012TR")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/7663e591-ed01-41c6-9d5f-ddeecc8aaa09"
-      (reference "BT2") (unit 1) (value "Battery") (footprint "connectors_user:jst 2 pin")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/ad6f8262-e39e-4fe6-a1e0-a3f669812706"
-      (reference "CON1") (unit 1) (value "jtag") (footprint "connectors_user:SAMTEC_FTSH-105-01-F-DV-P-TR")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/17a25a08-f4f3-4fc7-b6c8-157de81ca1b2"
-      (reference "D1") (unit 1) (value "RED") (footprint "halfgeleiders:led0603")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/52be3ee0-ca55-4a9b-a858-5ef216303dbd"
-      (reference "D2") (unit 1) (value "GREEN") (footprint "halfgeleiders:led0603")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/c4744816-888d-4de9-bd6e-114256277b4f"
-      (reference "D3") (unit 1) (value "BLUE") (footprint "halfgeleiders:led0603")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/0bdff4c4-ffb3-427f-ab61-a5030a1ef32d"
-      (reference "D4") (unit 1) (value "pwr") (footprint "halfgeleiders:led0603")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/2e95f960-9e27-4080-9244-9a2aa1bbd009"
-      (reference "R1") (unit 1) (value "220") (footprint "vanalles:0603RL")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/52523341-7220-4e61-82ec-c426c9e1e4b7"
-      (reference "R2") (unit 1) (value "220") (footprint "vanalles:0603RL")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/8d653cd7-3d7d-412a-8f34-c30ee1d040b6"
-      (reference "R3") (unit 1) (value "220") (footprint "vanalles:0603RL")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/b8378b75-11e3-4f79-a8c6-1e901d186032"
-      (reference "R4") (unit 1) (value "220") (footprint "vanalles:0603RL")
-    )
-    (path "/07300993-d199-4711-88e4-0718cf37230d/221c0abb-2b84-4c24-bae6-da7914ce543a"
-      (reference "mod1") (unit 1) (value "particle_e0") (footprint "Module:E0")
-    )
     (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/db2caeb0-e045-4e85-8f53-035aa5967487"
       (reference "#PWR0108") (unit 1) (value "+3V3") (footprint "")
     )
@@ -1198,8 +1141,14 @@
     (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/1aa4e2d6-706e-47b2-bb9a-c3bc5deeacfd"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/462c9b9d-622b-42c4-a540-6ab2cf21de07"
+      (reference "#PWR0112") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/9662087f-4d20-4a2c-b140-7f8099ca078d"
       (reference "#PWR0113") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/1973c322-274f-4fe6-a47b-e68d3dc7d39c"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
     (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/2669ba34-ced9-48ea-8c2b-ee0433a0a013"
       (reference "#PWR0116") (unit 1) (value "VDC") (footprint "")
@@ -1219,30 +1168,6 @@
     (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/42271bf3-7413-4de5-b6ed-4195a52f41e1"
       (reference "#PWR0121") (unit 1) (value "VDC") (footprint "")
     )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/18256044-c09a-45c7-b9e3-f162f1c6c02c"
-      (reference "C1") (unit 1) (value "100nF") (footprint "vanalles:0603")
-    )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/5a5c2005-e170-46a3-9316-04a2715a8e65"
-      (reference "C2") (unit 1) (value "10uF") (footprint "vanalles:0603")
-    )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/a6c2ed5f-09de-4ea1-a4a2-8ea8a6c412ce"
-      (reference "C3") (unit 1) (value "100nF") (footprint "vanalles:0603")
-    )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/eec6863c-0d52-4519-8794-32e97c7c3175"
-      (reference "C4") (unit 1) (value "10uF") (footprint "vanalles:0603")
-    )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/ea127a3c-41af-4761-8ba3-322bb23360b4"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "connectors_user:2pin_screw")
-    )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/19597021-314b-4cda-864f-bbcc45e67e0d"
-      (reference "R7") (unit 1) (value "100m Ohm") (footprint "vanalles:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
-    )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/0a9836da-253b-4a8b-91c4-9ebdb118ba18"
-      (reference "U1") (unit 1) (value "INA219BxDCN") (footprint "halfgeleiders:SOIC127P599X175-8N")
-    )
-    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/3c0756a8-2dc9-47ff-b857-5c5bc3fcdb68"
-      (reference "U2") (unit 1) (value "R-783.3-1.0") (footprint "vanalles:recom psu")
-    )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/7617974e-525f-4b3e-ab92-3111b3733557"
       (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
     )
@@ -1260,27 +1185,6 @@
     )
     (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/380de96c-8712-4fe7-ac1f-4a49dec5bb8f"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/6e79717a-250d-42ed-9d15-478ffbc079f3"
-      (reference "AE1") (unit 1) (value "sma") (footprint "connectors_user:sma_right angeld")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/a86ca555-6fd0-42c9-b5db-e7b86b5392c0"
-      (reference "BT3") (unit 1) (value "Battery_Cell") (footprint "vanalles:3012TR")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/53be5a9b-7a46-49a9-a6f9-de8d55454686"
-      (reference "C7") (unit 1) (value "10uF") (footprint "vanalles:0603")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/2ba2fbae-edc2-44d6-957a-168daaa4be73"
-      (reference "C8") (unit 1) (value "100nF") (footprint "vanalles:0603")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/382213fa-8cdf-41b2-a203-afbc22f87f07"
-      (reference "C10") (unit 1) (value "120nF") (footprint "vanalles:0603")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/dd77934a-0206-40a6-9c23-c96a4d3fe28b"
-      (reference "L1") (unit 1) (value "5n6") (footprint "vanalles:0603")
-    )
-    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/35d3c9cb-33f9-4eb0-8d63-c39d88309cda"
-      (reference "mod2") (unit 1) (value "teseo-LIV") (footprint "Module:SON_STM_TESEO-LIV3R")
     )
     (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/6d652a58-dca4-472a-9311-916b716be5d1"
       (reference "#PWR0132") (unit 1) (value "+3V3") (footprint "")
@@ -1309,33 +1213,6 @@
     (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/ee1d91bb-9362-46e1-befb-4ca80f05e550"
       (reference "#PWR0140") (unit 1) (value "VDC") (footprint "")
     )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/151193a4-ddfb-49c5-9d19-da2254ad601c"
-      (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "connectors_user:2pin_screw")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/b7c7ce4d-8edf-4a4b-934d-f6e877e6a70d"
-      (reference "PZ1") (unit 1) (value "buzzer") (footprint "vanalles:PROSIGNAL_ABI-017-RC")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/2971bf5a-0e9e-4278-876e-f6fbbf68d726"
-      (reference "Q?") (unit 1) (value "BSS138") (footprint "")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/3d37a004-5b01-4aa1-bbc4-2ae8b8bd865d"
-      (reference "R9") (unit 1) (value "10K") (footprint "vanalles:0603")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/9abd8654-1625-4650-afe1-b56240571926"
-      (reference "R10") (unit 1) (value "220 ") (footprint "vanalles:0603")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/c05296b4-cc90-4284-b7d4-2c7f60f6afae"
-      (reference "R11") (unit 1) (value "10K") (footprint "vanalles:0603")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/35888e5b-c544-4e3a-b7c0-439d96d3d0aa"
-      (reference "R12") (unit 1) (value "10K") (footprint "vanalles:0603")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/a604a588-2d75-49ef-9607-56708875fee9"
-      (reference "U5") (unit 1) (value "G3VM-61HR2(TR05)") (footprint "halfgeleiders:sop4 P=2.54")
-    )
-    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/ca646d98-816e-47da-842f-292479b0d183"
-      (reference "U6") (unit 1) (value "DS28CM00R-A00+T") (footprint "halfgeleiders:SOT-25")
-    )
     (path "/69795db9-53f5-4146-9976-6650e4325c8a/f0192445-7690-4343-8f51-9e7e937d666b"
       (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
     )
@@ -1351,14 +1228,137 @@
     (path "/69795db9-53f5-4146-9976-6650e4325c8a/4a0414d4-328f-4b5e-846c-c0d888ff53f8"
       (reference "#PWR0146") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/6e79717a-250d-42ed-9d15-478ffbc079f3"
+      (reference "AE1") (unit 1) (value "sma") (footprint "connectors_user:sma_right angeld")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/4fc699bc-73e3-41df-8d37-e6529b1bd6ea"
+      (reference "BT1") (unit 1) (value "Battery") (footprint "vanalles:3012TR")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/7663e591-ed01-41c6-9d5f-ddeecc8aaa09"
+      (reference "BT2") (unit 1) (value "Battery") (footprint "connectors_user:jst 2 pin")
+    )
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/a86ca555-6fd0-42c9-b5db-e7b86b5392c0"
+      (reference "BT3") (unit 1) (value "Battery_Cell") (footprint "vanalles:3012TR")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/18256044-c09a-45c7-b9e3-f162f1c6c02c"
+      (reference "C1") (unit 1) (value "100nF") (footprint "vanalles:0603")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/5a5c2005-e170-46a3-9316-04a2715a8e65"
+      (reference "C2") (unit 1) (value "10uF") (footprint "vanalles:0603")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/a6c2ed5f-09de-4ea1-a4a2-8ea8a6c412ce"
+      (reference "C3") (unit 1) (value "100nF") (footprint "vanalles:0603")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/eec6863c-0d52-4519-8794-32e97c7c3175"
+      (reference "C4") (unit 1) (value "10uF") (footprint "vanalles:0603")
+    )
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/53be5a9b-7a46-49a9-a6f9-de8d55454686"
+      (reference "C7") (unit 1) (value "10uF") (footprint "vanalles:0603")
+    )
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/2ba2fbae-edc2-44d6-957a-168daaa4be73"
+      (reference "C8") (unit 1) (value "100nF") (footprint "vanalles:0603")
+    )
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/382213fa-8cdf-41b2-a203-afbc22f87f07"
+      (reference "C10") (unit 1) (value "120nF") (footprint "vanalles:0603")
+    )
     (path "/69795db9-53f5-4146-9976-6650e4325c8a/01610a78-c48a-4ea3-8a6e-e3681f66450a"
       (reference "C11") (unit 1) (value "10uF") (footprint "vanalles:0603")
     )
     (path "/69795db9-53f5-4146-9976-6650e4325c8a/182071c2-2579-43b1-9b32-fb6680bb1c01"
       (reference "C12") (unit 1) (value "100nF") (footprint "vanalles:0603")
     )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/ad6f8262-e39e-4fe6-a1e0-a3f669812706"
+      (reference "CON1") (unit 1) (value "jtag") (footprint "connectors_user:SAMTEC_FTSH-105-01-F-DV-P-TR")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/17a25a08-f4f3-4fc7-b6c8-157de81ca1b2"
+      (reference "D1") (unit 1) (value "RED") (footprint "halfgeleiders:led0603")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/52be3ee0-ca55-4a9b-a858-5ef216303dbd"
+      (reference "D2") (unit 1) (value "GREEN") (footprint "halfgeleiders:led0603")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/c4744816-888d-4de9-bd6e-114256277b4f"
+      (reference "D3") (unit 1) (value "BLUE") (footprint "halfgeleiders:led0603")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/0bdff4c4-ffb3-427f-ab61-a5030a1ef32d"
+      (reference "D4") (unit 1) (value "pwr") (footprint "halfgeleiders:led0603")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/ea127a3c-41af-4761-8ba3-322bb23360b4"
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "connectors_user:2pin_screw")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/151193a4-ddfb-49c5-9d19-da2254ad601c"
+      (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "connectors_user:2pin_screw")
+    )
+    (path "/4ac1dc9d-757c-4417-8b6e-aee54c063b1d"
+      (reference "J3") (unit 1) (value "Conn_01x05_Male") (footprint "connectors_user:5pin header")
+    )
+    (path "/e075af15-d443-44aa-8611-ae43a2ff5c18"
+      (reference "J4") (unit 1) (value "Conn_01x05_Male") (footprint "connectors_user:5pin header")
+    )
+    (path "/01d0e796-edf8-42a4-a5ab-13e6ee66de5e"
+      (reference "J5") (unit 1) (value "Conn_01x05_Male") (footprint "connectors_user:5pin header")
+    )
+    (path "/4396d9d5-12c6-47b6-9eb2-1d11404c153d"
+      (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "connectors_user:2 pin header")
+    )
+    (path "/511c246a-148d-42fc-88d2-6334d6b817f1"
+      (reference "J7") (unit 1) (value "Conn_01x02_Male") (footprint "connectors_user:2 pin header")
+    )
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/dd77934a-0206-40a6-9c23-c96a4d3fe28b"
+      (reference "L1") (unit 1) (value "5n6") (footprint "vanalles:0603")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/b7c7ce4d-8edf-4a4b-934d-f6e877e6a70d"
+      (reference "PZ1") (unit 1) (value "buzzer") (footprint "vanalles:PROSIGNAL_ABI-017-RC")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/2971bf5a-0e9e-4278-876e-f6fbbf68d726"
+      (reference "Q?") (unit 1) (value "BSS138") (footprint "")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/2e95f960-9e27-4080-9244-9a2aa1bbd009"
+      (reference "R1") (unit 1) (value "220") (footprint "vanalles:0603RL")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/52523341-7220-4e61-82ec-c426c9e1e4b7"
+      (reference "R2") (unit 1) (value "220") (footprint "vanalles:0603RL")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/8d653cd7-3d7d-412a-8f34-c30ee1d040b6"
+      (reference "R3") (unit 1) (value "220") (footprint "vanalles:0603RL")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/b8378b75-11e3-4f79-a8c6-1e901d186032"
+      (reference "R4") (unit 1) (value "220") (footprint "vanalles:0603RL")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/19597021-314b-4cda-864f-bbcc45e67e0d"
+      (reference "R7") (unit 1) (value "100m Ohm") (footprint "vanalles:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/3d37a004-5b01-4aa1-bbc4-2ae8b8bd865d"
+      (reference "R9") (unit 1) (value "10K") (footprint "vanalles:0603")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/9abd8654-1625-4650-afe1-b56240571926"
+      (reference "R10") (unit 1) (value "220 ") (footprint "vanalles:0603")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/c05296b4-cc90-4284-b7d4-2c7f60f6afae"
+      (reference "R11") (unit 1) (value "10K") (footprint "vanalles:0603")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/35888e5b-c544-4e3a-b7c0-439d96d3d0aa"
+      (reference "R12") (unit 1) (value "10K") (footprint "vanalles:0603")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/0a9836da-253b-4a8b-91c4-9ebdb118ba18"
+      (reference "U1") (unit 1) (value "INA219BxDCN") (footprint "halfgeleiders:SOIC127P599X175-8N")
+    )
+    (path "/79a605cc-af64-43d7-ae62-3e8052a9a0e1/3c0756a8-2dc9-47ff-b857-5c5bc3fcdb68"
+      (reference "U2") (unit 1) (value "R-783.3-1.0") (footprint "vanalles:recom psu")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/a604a588-2d75-49ef-9607-56708875fee9"
+      (reference "U5") (unit 1) (value "G3VM-61HR2(TR05)") (footprint "halfgeleiders:sop4 P=2.54")
+    )
+    (path "/18649e60-ce3e-4061-8e0f-2c80ba218acb/ca646d98-816e-47da-842f-292479b0d183"
+      (reference "U6") (unit 1) (value "DS28CM00R-A00+T") (footprint "halfgeleiders:SOT-25")
+    )
     (path "/69795db9-53f5-4146-9976-6650e4325c8a/93d72736-413a-4674-96fd-4c9a9a915e4e"
       (reference "U7") (unit 1) (value "LIS3DH") (footprint "halfgeleiders:QFN-16_0.5MM")
+    )
+    (path "/07300993-d199-4711-88e4-0718cf37230d/221c0abb-2b84-4c24-bae6-da7914ce543a"
+      (reference "mod1") (unit 1) (value "particle_e0") (footprint "Module:E0")
+    )
+    (path "/f79873b7-4bfd-4ae6-996c-6a41645ad0c0/35d3c9cb-33f9-4eb0-8d63-c39d88309cda"
+      (reference "mod2") (unit 1) (value "teseo-LIV") (footprint "Module:SON_STM_TESEO-LIV3R")
     )
   )
 )

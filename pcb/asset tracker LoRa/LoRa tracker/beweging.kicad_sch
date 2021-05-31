@@ -332,6 +332,12 @@
     (uuid 15b2a908-896e-4746-b1ee-9232e82037da)
   )
 
+  (text "slave addres read = 33 hex\nslave addres write =32 hex"
+    (at 154.94 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 7a0d65d6-8b4b-4eac-a76b-102a8613f5b6)
+  )
+
   (hierarchical_label "LIS_INT1" (shape output) (at 83.82 81.28 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7c00dea9-6d3f-4de0-9ef0-3bc69cbaddcc)
