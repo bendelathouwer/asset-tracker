@@ -58,6 +58,22 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define GPS_PPS_Pin GPIO_PIN_13
+#define GPS_PPS_GPIO_Port GPIOB
+#define GPS_WAKE_Pin GPIO_PIN_14
+#define GPS_WAKE_GPIO_Port GPIOB
+#define GPS_RESET_Pin GPIO_PIN_15
+#define GPS_RESET_GPIO_Port GPIOB
+#define LORA_RESET_Pin GPIO_PIN_8
+#define LORA_RESET_GPIO_Port GPIOA
+#define SSR_Pin GPIO_PIN_9
+#define SSR_GPIO_Port GPIOA
+#define BUZZER_Pin GPIO_PIN_10
+#define BUZZER_GPIO_Port GPIOA
+#define LIS_INT2_Pin GPIO_PIN_11
+#define LIS_INT2_GPIO_Port GPIOA
+#define LIS_INT1_Pin GPIO_PIN_12
+#define LIS_INT1_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
