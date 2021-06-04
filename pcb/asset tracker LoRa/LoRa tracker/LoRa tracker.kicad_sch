@@ -1730,7 +1730,7 @@
       (reference "Y2") (unit 1) (value "32khz") (footprint "vanalles:crystal tht")
     )
     (path "/0e73f55d-2435-4bae-aa12-8b99ef7d3bab/a419fcc8-3b3a-41c7-85c8-70a69bb868ce"
-      (reference "Y3") (unit 1) (value "16MHz") (footprint "vanalles:MURATA_CSTCE16M0V53C-R0")
+      (reference "Y3") (unit 1) (value "16MHz") (footprint "vanalles:MURATA_CSTLS16M0X53-B0")
     )
   )
 )

@@ -1349,7 +1349,7 @@
     (property "Reference" "Y1" (id 0) (at 190.5 90.8049 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "326MhZ" (id 1) (at 172.72 88.2649 90)
+    (property "Value" "32MhZ" (id 1) (at 172.72 88.2649 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "vanalles:OSCCC320X250X90L80X100N" (id 2) (at 184.15 91.44 0)

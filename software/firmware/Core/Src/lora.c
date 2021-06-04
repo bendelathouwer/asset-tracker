@@ -5,4 +5,4 @@
  *      Author: Ben De Lathouwer
  */
 
-extern SPI_HandleTypeDef hspi1;
+

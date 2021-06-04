@@ -5,4 +5,3 @@
  *      Author: Ben De Lathouwer
  */
 
-extern I2C_HandleTypeDef hi2c1;

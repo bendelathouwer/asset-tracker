@@ -8,6 +8,6 @@
 #ifndef INC_INA_H_
 #define INC_INA_H_
 
-
+int  Config_INA(void);
 
 #endif /* INC_INA_H_ */

@@ -212,20 +212,180 @@ Discarded input sections
  .ARM.attributes
                 0x0000000000000000       0x3c Core/Src/gps.o
  .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
+ .group         0x0000000000000000        0xc Core/Src/ina.o
  .text          0x0000000000000000        0x0 Core/Src/ina.o
  .data          0x0000000000000000        0x0 Core/Src/ina.o
  .bss           0x0000000000000000        0x0 Core/Src/ina.o
- .debug_info    0x0000000000000000       0x21 Core/Src/ina.o
- .debug_abbrev  0x0000000000000000       0x13 Core/Src/ina.o
- .debug_aranges
-                0x0000000000000000       0x18 Core/Src/ina.o
- .debug_macro   0x0000000000000000       0x11 Core/Src/ina.o
- .debug_macro   0x0000000000000000      0xaae Core/Src/ina.o
- .debug_line    0x0000000000000000       0x32 Core/Src/ina.o
- .debug_str     0x0000000000000000     0x2deb Core/Src/ina.o
- .comment       0x0000000000000000       0x54 Core/Src/ina.o
- .ARM.attributes
+ .rodata.ina_adder
+                0x0000000000000000        0x1 Core/Src/ina.o
+ .rodata.config_reg
+                0x0000000000000000        0x1 Core/Src/ina.o
+ .rodata.Shunt_Volt_Reg
+                0x0000000000000000        0x1 Core/Src/ina.o
+ .rodata.Bus_Volt_Reg
+                0x0000000000000000        0x1 Core/Src/ina.o
+ .rodata.Power_reg
+                0x0000000000000000        0x1 Core/Src/ina.o
+ .rodata.Current_reg
+                0x0000000000000000        0x1 Core/Src/ina.o
+ .rodata.Cal_Reg
+                0x0000000000000000        0x1 Core/Src/ina.o
+ .text.Config_INA
                 0x0000000000000000       0x3c Core/Src/ina.o
+ .debug_info    0x0000000000000000     0x124a Core/Src/ina.o
+ .debug_abbrev  0x0000000000000000      0x1ea Core/Src/ina.o
+ .debug_aranges
+                0x0000000000000000       0x20 Core/Src/ina.o
+ .debug_ranges  0x0000000000000000       0x10 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x373 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0xaae Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x19b Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x2e Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x42 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x22 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x8e Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x51 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x103 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x6a Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x1df Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x1c Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x29 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x101 Core/Src/ina.o
+ .debug_macro   0x0000000000000000     0x1336 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x5e Core/Src/ina.o
+ .debug_macro   0x0000000000000000    0x1ac8f Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x42 Core/Src/ina.o
+ .debug_macro   0x0000000000000000     0x34df Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x174 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x5c Core/Src/ina.o
+ .debug_macro   0x0000000000000000     0x1948 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0xa4b Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x153 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x1d9 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x4e1 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x1ac Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x4a Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x1ba Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x231 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x3bb Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x36 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x11c Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x22c Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x5b Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0xa5 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0xf3 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x199 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x487 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x313 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x748 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0xe4 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x2fe Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x67e Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0xa6 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x3f1 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x52 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x18 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x3c Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x34 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x35 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x333 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x43 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x34 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x58 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x71 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x1c Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x12a Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x1c Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x52 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x22 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x40 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0xd5 Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x1c Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x3d Core/Src/ina.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/ina.o
+ .debug_macro   0x0000000000000000      0x145 Core/Src/ina.o
+ .debug_line    0x0000000000000000      0x93c Core/Src/ina.o
+ .debug_str     0x0000000000000000   0x1025cb Core/Src/ina.o
+ .comment       0x0000000000000000       0x54 Core/Src/ina.o
+ .debug_frame   0x0000000000000000       0x34 Core/Src/ina.o
+ .ARM.attributes
+                0x0000000000000000       0x3a Core/Src/ina.o
  .group         0x0000000000000000        0xc Core/Src/lis_motion.o
  .text          0x0000000000000000        0x0 Core/Src/lis_motion.o
  .data          0x0000000000000000        0x0 Core/Src/lis_motion.o
