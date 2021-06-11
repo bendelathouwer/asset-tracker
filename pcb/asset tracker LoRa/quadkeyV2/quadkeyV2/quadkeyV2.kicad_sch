@@ -1,0 +1,143 @@
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid c85e45c8-be58-474d-88aa-a878344e831c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 110.49 78.74) (xy 140.97 78.74))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 19d6e7f4-444d-45e1-8208-b81b243db614)
+  )
+
+  (sheet (at 140.97 64.77) (size 57.15 29.21) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 60e7901c-546e-449f-af2b-df5f7aad814e)
+    (property "Sheet name" "mcu" (id 0) (at 140.97 64.1343 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 140.97 94.4887 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VM" input (at 140.97 78.74 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 225bc0b3-f49c-486a-a783-c2212139220b)
+    )
+  )
+
+  (sheet (at 74.93 64.77) (size 35.56 29.21) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a)
+    (property "Sheet name" "voeding" (id 0) (at 74.93 64.1343 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "voeding.kicad_sch" (id 1) (at 74.93 94.4887 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VM_BAT" output (at 110.49 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid b3792c4b-ea5b-4153-89dc-1381bdb40f07)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a" (page "2"))
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/0cd77871-7347-4c16-b465-4c3e2412afdb"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/109b0327-7d4c-494e-b59f-8eceb0a8331c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/308893fc-612e-409d-b327-158dc64d87dd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/3db2f180-5867-4430-9e3b-6de48c21dd82"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/5b20358e-04fe-459d-84a3-7487ea25df67"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/5b9b01e3-dabe-4c46-94fd-977f7b989f06"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/603c6187-558e-4e20-8327-035a5d7758bb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/7a07ac66-b405-480e-8bb7-65c5359bdfa5"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/86dd6bf5-7edf-4a83-901b-e1b7c34c2f22"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/8a6d4f03-11f9-4c91-9b5b-1cf9a0f35870"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/ae31131b-156d-4c26-9114-ab0788dd93bc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/c3685d7d-506b-48a5-8f64-72aef38a1dd0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/ccb5d78b-ea5c-403a-a8fe-9ad55c7f9947"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/ef8228da-cbde-4475-94c2-cad6845d9f48"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/052fac49-6853-40cd-b198-822c100f5adb"
+      (reference "#vbat?") (unit 1) (value "vbat") (footprint "")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/b14470bf-d45d-4eb3-9678-827735e93bb2"
+      (reference "#vbat?") (unit 1) (value "vbat") (footprint "")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/be94ceff-947e-415e-a68c-22da7eb8332e"
+      (reference "BT?") (unit 1) (value "Battery") (footprint "connectors_user:jst 2 pin")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/e6251119-c766-4481-9a06-7ca31dd7748c"
+      (reference "CON?") (unit 1) (value "TAGconnect_ESP") (footprint "connectors_user:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/4aec3ad4-1b54-47cb-97fd-29500e493c1c"
+      (reference "D?") (unit 1) (value "LED") (footprint "halfgeleiders:led0603")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/85b6db79-173c-42a6-b68a-057f35cd5d65"
+      (reference "L?") (unit 1) (value "L") (footprint "vanalles:0603RL")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/13c88f1f-3b0a-42d2-b286-9366ffac6038"
+      (reference "R?") (unit 1) (value "100K") (footprint "vanalles:0603RL")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/190d5c9e-5299-4415-a246-72902911cf0d"
+      (reference "R?") (unit 1) (value "100k") (footprint "vanalles:0603RL")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/32c9a6e2-ee23-4a55-93fb-90be0d51e401"
+      (reference "R?") (unit 1) (value "NM") (footprint "vanalles:0603RL")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/342c3679-4c7a-4e76-a9cf-7e59ef229a78"
+      (reference "R?") (unit 1) (value "nm") (footprint "vanalles:0603RL")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/7419d7a8-ac15-4d44-a483-f266028627d3"
+      (reference "R?") (unit 1) (value "10K") (footprint "vanalles:0603RL")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/c3a1dc25-5c25-4fe3-a7cc-593815ca0c96"
+      (reference "R?") (unit 1) (value "10K") (footprint "vanalles:0603RL")
+    )
+    (path "/60e7901c-546e-449f-af2b-df5f7aad814e/06392c05-d994-4f5f-9b0e-119d20aa562e"
+      (reference "U?") (unit 1) (value "ESP32-WROOM") (footprint "Module:ESP32-WROOM-32")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/6d83848b-cac2-4293-8e1d-e4b830f08b5c"
+      (reference "U?") (unit 1) (value "BQ51050BRHL") (footprint "Package_DFN_QFN:Texas_VQFN-RHL-20")
+    )
+    (path "/c3f3d0db-996a-49d9-8bb2-f2332d7d8b6a/5d12ac97-b9da-437f-8b28-d50348c3ab47"
+      (reference "con?") (unit 1) (value "USB_micro") (footprint "connectors_user:MILLMAX_897-43-005-00-100001")
+    )
+  )
+)

@@ -332,6 +332,10 @@
     (uuid 15b2a908-896e-4746-b1ee-9232e82037da)
   )
 
+  (text "accelormeter\n" (at 114.3 123.19 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid d4ac4781-a013-4cdd-b3c4-61aeb5a5fc81)
+  )
   (text "slave addres read = 33 hex\nslave addres write =32 hex"
     (at 154.94 95.25 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))

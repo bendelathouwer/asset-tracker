@@ -466,6 +466,11 @@
     (uuid b8c0ef05-a1cb-425d-bbc8-dcd52c1ad964)
   )
 
+  (text "Lora module + decoupling" (at 134.62 104.14 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 8abacfaa-cca3-4d21-adc7-a212b24ced65)
+  )
+
   (hierarchical_label "RESET" (shape input) (at 72.39 63.5 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8c60bfed-ed27-4039-80ec-aa7eb3c5ec7f)
