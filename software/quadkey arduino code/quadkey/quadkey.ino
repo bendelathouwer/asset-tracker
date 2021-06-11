@@ -43,7 +43,7 @@ BLEAdvertising *pAdvertising;
 struct timeval now;
 
 #define BEACON_UUID           "8ec76ea3-6668-48da-9866-75be8bc86f4d" // UUID 1 128-Bit (may use linux tool uuidgen or random numbers via https://www.uuidgenerator.net/)
-uint64_t key = ESP.getEfuseMac();
+uint16_t key = uint16_t (ESP.getEfuseMac());
 
 
 void setBeacon() {
@@ -53,7 +53,7 @@ Serial.println(key);
   oBeacon.setManufacturerId(0x4C00); // fake Apple 0x004C LSB (ENDIAN_CHANGE_U16!)
   oBeacon.setProximityUUID(BLEUUID(BEACON_UUID));
   oBeacon.setMajor(42);
-  oBeacon.setMinor(01);
+  oBeacon.setMinor(key);
   BLEAdvertisementData oAdvertisementData = BLEAdvertisementData();
   BLEAdvertisementData oScanResponseData = BLEAdvertisementData();
   
@@ -78,9 +78,6 @@ void setup() {
   Serial.begin(115200);
   gettimeofday(&now, NULL);
 
-  Serial.printf("start ESP32 %d\n",bootcount++);
-
-  Serial.printf("deep sleep (%lds since last reset, %lds since last boot)\n",now.tv_sec,now.tv_sec-last);
 
   last = now.tv_sec;
   
@@ -95,12 +92,11 @@ void setup() {
   setBeacon();
    // Start advertising
   pAdvertising->start();
-  Serial.println("Advertizing started...");
   delay(100);
   pAdvertising->stop();
-  Serial.printf("enter deep sleep\n");
+ 
   esp_deep_sleep(1000000LL * GPIO_DEEP_SLEEP_DURATION);
-  Serial.printf("in deep sleep\n");
+
 }
 
 void loop() {
