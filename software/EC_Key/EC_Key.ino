@@ -7,8 +7,11 @@ NimBLEScan* pBLEScan;
 BLEUUID keys[2] = { BLEUUID("09c7a7dd-9e55-42d4-a47f-afac8a343b2d"),
                     BLEUUID("eb7239b6-deda-427c-bafd-0d04fd532a5a") };
 
+#define EMPTY_UUID BLEUUID("00000000-0000-0000-0000-00000000000")
+
 unsigned long lastSeen = 0;
-BLEUUID pairedKey = BLEUUID("00000000-0000-0000-0000-00000000000");
+unsigned long toleranceTime = 2000;
+BLEUUID pairedKey = EMPTY_UUID;
 
 class MyAdvertisedDeviceCallbacks: public NimBLEAdvertisedDeviceCallbacks {
     void onResult(NimBLEAdvertisedDevice* advertisedDevice) {
@@ -47,12 +50,12 @@ class MyAdvertisedDeviceCallbacks: public NimBLEAdvertisedDeviceCallbacks {
           }
 
           // check for removed key
-          if (pairedKey != BLEUUID("00000000-0000-0000-0000-00000000000"))
+          if (pairedKey != EMPTY_UUID)
           {
-            if ((lastSeen + 2000) < millis())
+            if ((lastSeen + toleranceTime) < millis())
             {
               digitalWrite(LED_BUILTIN, LOW); // TODO Fire event : lost device
-              pairedKey = BLEUUID("00000000-0000-0000-0000-00000000000");
+              pairedKey = EMPTY_UUID;
             }
           }
         }
