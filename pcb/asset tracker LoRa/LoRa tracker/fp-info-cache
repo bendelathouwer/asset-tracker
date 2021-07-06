@@ -1,4 +1,4 @@
-1267881030752046
+1309169619223690
 Connector_Wire
 SolderWirePad_2x_0-8mmDrill
 Wire solder connection
@@ -216,6 +216,62 @@ MesurementPoint Square SMDPad 5mmx10mm
 0
 1
 1
+Fiducial
+Fiducial_0.5mm_Mask1.5mm
+Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_0.5mm_Mask1mm
+Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_0.75mm_Mask1.5mm
+Circular Fiducial, 0.75mm bare copper, 1.5mm soldermask opening (Level B)
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_0.75mm_Mask2.25mm
+Circular Fiducial, 0.75mm bare copper, 2.25mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1.5mm_Mask3mm
+Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1.5mm_Mask4.5mm
+Circular Fiducial, 1.5mm bare copper, 4.5mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1mm_Mask2mm
+Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1mm_Mask3mm
+Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)
+fiducial
+0
+1
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -790,6 +846,90 @@ ultrasonic module
 0
 4
 4
+NetTie
+NetTie-2_SMD_Pad0.5mm
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
+NetTie
+NetTie-2_SMD_Pad2.0mm
+Net tie, 2 pin, 2.0mm square SMD pads
+net tie
+0
+2
+2
+NetTie
+NetTie-2_THT_Pad0.3mm
+Net tie, 2 pin, 0.3mm round THT pads
+net tie
+0
+2
+2
+NetTie
+NetTie-2_THT_Pad1.0mm
+Net tie, 2 pin, 1.0mm round THT pads
+net tie
+0
+2
+2
+NetTie
+NetTie-3_SMD_Pad0.5mm
+Net tie, 3 pin, 0.5mm square SMD pads
+net tie
+0
+3
+3
+NetTie
+NetTie-3_SMD_Pad2.0mm
+Net tie, 3 pin, 2.0mm square SMD pads
+net tie
+0
+3
+3
+NetTie
+NetTie-3_THT_Pad0.3mm
+Net tie, 3 pin, 0.3mm round THT pads
+net tie
+0
+3
+3
+NetTie
+NetTie-3_THT_Pad1.0mm
+Net tie, 3 pin, 1.0mm round THT pads
+net tie
+0
+3
+3
+NetTie
+NetTie-4_SMD_Pad0.5mm
+Net tie, 4 pin, 0.5mm square SMD pads
+net tie
+0
+4
+4
+NetTie
+NetTie-4_SMD_Pad2.0mm
+Net tie, 4 pin, 2.0mm square SMD pads
+net tie
+0
+4
+4
+NetTie
+NetTie-4_THT_Pad0.3mm
+Net tie, 4 pin, 0.3mm round THT pads
+net tie
+0
+4
+4
+NetTie
+NetTie-4_THT_Pad1.0mm
+Net tie, 4 pin, 1.0mm round THT pads
+net tie
+0
+4
+4
 connectors_user
 2 pin header
 
@@ -1000,6 +1140,13 @@ connector IHI B6A-PCB-45
 0
 49
 1
+connectors_user
+JST_SM04B-SRSS-TB_LF__SN_
+CONNECTOR; 6 PIN, 6.00 MM L X 4.25 MM W X 2.90 MM H BODYPCB LIBRARIES PACKAGES
+CONNECTOR; 6 PIN, 6.00 MM L X 4.25 MM W X 2.90 MM H BODYPCB LIBRARIES PACKAGES
+0
+6
+6
 connectors_user
 JWT_A3963_1x02_P3.96mm_Vertical
 JWT A3963, 3.96mm pitch Pin head connector (http://www.jwt.com.tw/pro_pdf/A3963.pdf)
@@ -1498,6 +1645,20 @@ ATSAMD21G18A-M
 49
 49
 halfgeleiders
+BGA9C50P3X3_150X150X62N
+
+
+0
+9
+9
+halfgeleiders
+CSD75207W15
+
+
+0
+6
+6
+halfgeleiders
 DDPAK_TO-263
 
 
@@ -1758,6 +1919,13 @@ SOT-25
 5
 halfgeleiders
 SOT223
+
+
+0
+4
+4
+halfgeleiders
+SOT229P700X180-4N
 
 
 0
