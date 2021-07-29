@@ -190,6 +190,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 9ad9c74f-a9e6-4dc1-9c4e-7c785164d0dc)
   )
+  (wire (pts (xy 74.93 72.39) (xy 85.09 72.39))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid ce7456c8-0390-450b-b4db-254f8d169b9e)
+  )
 
   (symbol (lib_id "power:GND") (at 44.45 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
@@ -263,6 +267,10 @@
     )
     (property "Sheet file" "DCDC.kicad_sch" (id 1) (at 85.09 85.5987 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VIN" input (at 85.09 72.39 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid abea4c2a-4e12-42fe-a022-0deff58cbf4c)
     )
   )
 
