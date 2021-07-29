@@ -1,0 +1,20 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid bd9ab828-498a-4e4b-97fa-6f2a60bbd242)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 20.32 58.42) (xy 29.21 58.42))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid e81d837d-fb24-4984-9d11-479eede9241e)
+  )
+
+  (hierarchical_label "VIN" (shape input) (at 20.32 58.42 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0de97f8d-43ef-45b5-8765-d221c02daf23)
+  )
+)
