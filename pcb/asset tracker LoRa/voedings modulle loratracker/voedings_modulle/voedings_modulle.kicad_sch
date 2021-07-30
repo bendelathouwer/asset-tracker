@@ -198,7 +198,7 @@
   (symbol (lib_id "power:GND") (at 44.45 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b69da6a5-0c3e-4852-84f1-f7d176af5178)
-    (property "Reference" "#PWR?" (id 0) (at 44.45 107.95 0)
+    (property "Reference" "#PWR0101" (id 0) (at 44.45 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 44.45 106.68 0))
@@ -214,8 +214,8 @@
   (symbol (lib_id "conectors:battery_con") (at 27.94 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a5a6b075-b381-4de0-8cb2-1f154fbb764c)
-    (property "Reference" "con?" (id 0) (at 28.7655 58.42 0))
-    (property "Value" "battery_con" (id 1) (at 28.7655 60.96 0))
+    (property "Reference" "con1" (id 0) (at 28.7655 58.42 0))
+    (property "Value" "screw terminal" (id 1) (at 28.7655 60.96 0))
     (property "Footprint" "" (id 2) (at 27.94 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -229,8 +229,8 @@
   (symbol (lib_id "conectors:battery_con") (at 27.94 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5ae77b84-2a40-4e44-92ae-4561547d1029)
-    (property "Reference" "con?" (id 0) (at 28.7655 72.39 0))
-    (property "Value" "battery_con" (id 1) (at 28.7655 74.93 0))
+    (property "Reference" "con2" (id 0) (at 28.7655 72.39 0))
+    (property "Value" "xt60" (id 1) (at 28.7655 74.93 0))
     (property "Footprint" "" (id 2) (at 27.94 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -244,9 +244,9 @@
   (symbol (lib_id "Halfgelijders:double_diode") (at 72.39 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f814b072-693b-4a39-959d-cba41b429442)
-    (property "Reference" "D?" (id 0) (at 70.485 63.5 90))
-    (property "Value" "double_diode" (id 1) (at 70.485 66.04 90))
-    (property "Footprint" "" (id 2) (at 74.93 72.39 0)
+    (property "Reference" "D1" (id 0) (at 70.485 63.5 90))
+    (property "Value" " MBR1560CT" (id 1) (at 70.485 66.04 90))
+    (property "Footprint" "halfgeleiders:DPAK" (id 2) (at 74.93 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 74.93 72.39 0)
@@ -258,14 +258,14 @@
     (pin "4" (uuid e40d9b92-7335-4e52-a08a-b99fa1a79484))
   )
 
-  (sheet (at 85.09 64.77) (size 27.94 20.32) (fields_autoplaced)
+  (sheet (at 85.09 69.85) (size 12.7 6.35) (fields_autoplaced)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6da2fc13-0bf2-46cb-b2dd-779a7fa447fa)
-    (property "Sheet name" "DC-DC" (id 0) (at 85.09 64.1343 0)
+    (property "Sheet name" "DC-DC" (id 0) (at 85.09 69.2143 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "DCDC.kicad_sch" (id 1) (at 85.09 85.5987 0)
+    (property "Sheet file" "DCDC.kicad_sch" (id 1) (at 85.09 76.7087 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "VIN" input (at 85.09 72.39 180)
@@ -281,16 +281,64 @@
 
   (symbol_instances
     (path "/b69da6a5-0c3e-4852-84f1-f7d176af5178"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/2973d96f-90c0-4ae4-8021-b72c068276ee"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/21b9ad56-b1d7-46eb-b3cc-830247fa8880"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/dc1cd67e-94ec-429f-aefd-baf227c16e17"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/176d8147-3e32-469d-8144-7c1e37eee731"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/283da580-96bb-41c1-b1bc-b132a72a227e"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/a635c1e6-72a8-4ee4-bf7c-4edf8782d9ad"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/5b99cbd5-d1ec-4d26-a902-cdaf328a07cd"
+      (reference "C1") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/fd0ed657-0818-4d37-bda3-c4b52abdd616"
+      (reference "C2") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/6cc34a28-62b2-4820-ad9f-ca8cc24addbb"
+      (reference "C3") (unit 1) (value "C") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/4f48aa7e-168d-49da-a8c3-54ed476f0384"
+      (reference "C4") (unit 1) (value "C_Polarized_Small_US") (footprint "")
     )
     (path "/f814b072-693b-4a39-959d-cba41b429442"
-      (reference "D?") (unit 1) (value "double_diode") (footprint "")
+      (reference "D1") (unit 1) (value " MBR1560CT") (footprint "halfgeleiders:DPAK")
     )
-    (path "/5ae77b84-2a40-4e44-92ae-4561547d1029"
-      (reference "con?") (unit 1) (value "battery_con") (footprint "")
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/735a1f33-a5df-4021-b2a8-372e5f7e6f84"
+      (reference "D2") (unit 1) (value "D_Schottky") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/af55fb99-7bae-4961-bd23-b38d7025c33a"
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/463799d9-45f8-4963-af3f-d0632981f49c"
+      (reference "L1") (unit 1) (value "L") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/35ef0e3a-24f6-45fa-83f5-f2c157a8910b"
+      (reference "R1") (unit 1) (value "R_Small_US") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/c94f7291-0b6b-43a7-ba37-196443e92db9"
+      (reference "R2") (unit 1) (value "R_Small_US") (footprint "")
+    )
+    (path "/6da2fc13-0bf2-46cb-b2dd-779a7fa447fa/5e9287ae-c1ac-44c7-b8fe-5697a4e9971c"
+      (reference "U1") (unit 1) (value "MAX5035AUSA") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/a5a6b075-b381-4de0-8cb2-1f154fbb764c"
-      (reference "con?") (unit 1) (value "battery_con") (footprint "")
+      (reference "con1") (unit 1) (value "screw terminal") (footprint "")
+    )
+    (path "/5ae77b84-2a40-4e44-92ae-4561547d1029"
+      (reference "con2") (unit 1) (value "xt60") (footprint "")
     )
   )
 )
