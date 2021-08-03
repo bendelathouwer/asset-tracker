@@ -324,6 +324,10 @@
     [
       "6da2fc13-0bf2-46cb-b2dd-779a7fa447fa",
       "DC-DC"
+    ],
+    [
+      "b04b8752-3c3d-40d5-a512-14142a0fd0cf",
+      "microcontroller"
     ]
   ],
   "text_variables": {}
