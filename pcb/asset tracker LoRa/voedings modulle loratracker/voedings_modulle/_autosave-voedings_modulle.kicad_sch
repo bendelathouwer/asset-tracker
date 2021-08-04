@@ -913,7 +913,7 @@
     (property "Reference" "R?" (id 0) (at 118.11 102.2349 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100 ohm" (id 1) (at 118.11 104.7749 0)
+    (property "Value" "1K ohm " (id 1) (at 118.11 104.7749 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 120.65 102.87 0)
@@ -932,7 +932,7 @@
     (property "Reference" "R?" (id 0) (at 135.89 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100ohm" (id 1) (at 135.89 102.8699 0)
+    (property "Value" "1Kohm" (id 1) (at 135.89 102.8699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 138.43 100.965 0)
@@ -1261,7 +1261,7 @@
       (reference "R?") (unit 1) (value "58Kohm") (footprint "")
     )
     (path "/6fbbb8c8-ff36-4738-b0b6-7937d6f2a83e"
-      (reference "R?") (unit 1) (value "100ohm") (footprint "")
+      (reference "R?") (unit 1) (value "1Kohm") (footprint "")
     )
     (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/7968de54-d1e4-4a7a-8fb2-6c341d0be18a"
       (reference "R?") (unit 1) (value "40") (footprint "")
@@ -1270,7 +1270,7 @@
       (reference "R?") (unit 1) (value "40") (footprint "")
     )
     (path "/a845edb1-d258-4d61-aea3-3107d32c4a39"
-      (reference "R?") (unit 1) (value "100 ohm") (footprint "")
+      (reference "R?") (unit 1) (value "1K ohm ") (footprint "")
     )
     (path "/d18b4f86-0612-4f9e-a07a-aa57208b1cb1"
       (reference "R?") (unit 1) (value "R_Small_US") (footprint "")
