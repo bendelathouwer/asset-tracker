@@ -1,6 +1,6 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
 
-  (uuid bd9ab828-498a-4e4b-97fa-6f2a60bbd242)
+  (uuid 5f98b028-0d33-4463-b2e0-b28557b203fd)
 
   (paper "A4")
 
@@ -798,7 +798,7 @@
 
   (symbol (lib_id "power:GND") (at 149.86 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 21b9ad56-b1d7-46eb-b3cc-830247fa8880)
+    (uuid de347090-e750-469f-a226-70132cc7858d)
     (property "Reference" "#PWR0103" (id 0) (at 149.86 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )

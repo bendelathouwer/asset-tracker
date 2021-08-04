@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
 
   (uuid b4298cac-d57c-4ae4-a878-e81fe0f44743)
 
@@ -576,7 +576,6 @@
   (no_connect (at 89.535 96.52) (uuid 21a81d35-9143-4220-9e5b-546f1e852630))
   (no_connect (at 89.535 99.06) (uuid 21a81d35-9143-4220-9e5b-546f1e852630))
   (no_connect (at 89.535 101.6) (uuid 21a81d35-9143-4220-9e5b-546f1e852630))
-  (no_connect (at 89.535 104.14) (uuid 21a81d35-9143-4220-9e5b-546f1e852630))
   (no_connect (at 89.535 114.3) (uuid 6aff2320-e706-4897-8c31-db16afa25e03))
   (no_connect (at 104.775 172.72) (uuid ed21e358-97e9-4acf-a972-2250ed400577))
 
@@ -675,6 +674,10 @@
   (wire (pts (xy 89.535 78.74) (xy 100.965 78.74))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 23e0fe8f-a5e1-4898-b0b5-9140fe2d6d67)
+  )
+  (wire (pts (xy 89.535 104.14) (xy 113.665 104.14))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 9f2f329f-0af3-41c4-a15b-992ffe17e483)
   )
   (wire (pts (xy 89.535 106.68) (xy 113.665 106.68))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1019,7 +1022,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 96c755d7-67e5-4838-b584-45c13ee8decc)
   )
-  (hierarchical_label "Relay" (shape output) (at 113.665 106.68 0)
+  (hierarchical_label "SSR0" (shape output) (at 113.665 104.14 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid db026863-8667-4fbf-85d2-b277833ef63d)
+  )
+  (hierarchical_label "SSR1" (shape output) (at 113.665 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 241344c6-c447-4022-969f-bc9d2df0fd64)
   )

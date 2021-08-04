@@ -206,7 +206,6 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
@@ -254,8 +253,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(0, 0, 0, 0,000)",
+        "schematic_color": "rgba(0, 0, 0, 0,000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -263,7 +262,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "net_colors": null
   },
@@ -322,8 +321,8 @@
       ""
     ],
     [
-      "6da2fc13-0bf2-46cb-b2dd-779a7fa447fa",
-      "DC-DC"
+      "26e1291c-214c-41ef-986d-78e1106ac5cb",
+      "dcdc"
     ],
     [
       "b04b8752-3c3d-40d5-a512-14142a0fd0cf",
