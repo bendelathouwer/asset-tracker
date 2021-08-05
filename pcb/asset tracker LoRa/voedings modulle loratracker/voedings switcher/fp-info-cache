@@ -1,4 +1,4 @@
-1280977538693512
+1282605721048047
 Connector_Wire
 SolderWirePad_2x_0-8mmDrill
 Wire solder connection
@@ -216,13 +216,6 @@ MesurementPoint Square SMDPad 5mmx10mm
 0
 1
 1
-Downloads
-DIP762W50P254L730H410Q6
-
-
-0
-6
-6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -1911,6 +1904,13 @@ sod923
 2
 2
 halfgeleiders
+soic HV clearance
+
+
+0
+0
+0
+halfgeleiders
 soic p1.27 lengt 5.40
 
 
@@ -3041,6 +3041,13 @@ vanalles
 Crystal_SMD_HC49-US
 SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
 SMD SMT crystal
+0
+2
+2
+vanalles
+DO5022p
+
+
 0
 2
 2

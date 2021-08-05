@@ -1255,13 +1255,13 @@
       (reference "C1") (unit 1) (value "68uF/100V") (footprint "vanalles:CAPAE1030X1050D1200L350X90N")
     )
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/fd0ed657-0818-4d37-bda3-c4b52abdd616"
-      (reference "C2") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C2") (unit 1) (value "0.1uF") (footprint "vanalles:0603")
     )
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/6cc34a28-62b2-4820-ad9f-ca8cc24addbb"
-      (reference "C3") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C3") (unit 1) (value "0.1uF") (footprint "vanalles:0603")
     )
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/4f48aa7e-168d-49da-a8c3-54ed476f0384"
-      (reference "C4") (unit 1) (value "68uF/10V") (footprint "")
+      (reference "C4") (unit 1) (value "68uF/10V") (footprint "vanalles:CAPAE1030X1050D1200L350X90N")
     )
     (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/9299f956-9abc-4c4a-a313-65744126b959"
       (reference "C6") (unit 1) (value "100nF") (footprint "vanalles:0603")
@@ -1312,19 +1312,19 @@
       (reference "FID3") (unit 1) (value "Fiducial") (footprint "")
     )
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/af55fb99-7bae-4961-bd23-b38d7025c33a"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "connectors_user:2pin_screw_vast")
     )
     (path "/1f02a9a8-9660-4480-869a-d08b54d50697"
       (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "")
     )
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/463799d9-45f8-4963-af3f-d0632981f49c"
-      (reference "L1") (unit 1) (value "100uH") (footprint "")
+      (reference "L1") (unit 1) (value "100uH") (footprint "vanalles:DO5022p")
     )
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/35ef0e3a-24f6-45fa-83f5-f2c157a8910b"
-      (reference "R1") (unit 1) (value "43.5Kohm/1%") (footprint "")
+      (reference "R1") (unit 1) (value "43.5Kohm/1%") (footprint "vanalles:0603")
     )
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/c94f7291-0b6b-43a7-ba37-196443e92db9"
-      (reference "R2") (unit 1) (value "130Kohm/1%") (footprint "")
+      (reference "R2") (unit 1) (value "130Kohm/1%") (footprint "vanalles:0603")
     )
     (path "/f43b0f24-adc8-472b-8694-094bb6dc900e"
       (reference "R3") (unit 1) (value "1Mohm") (footprint "")
