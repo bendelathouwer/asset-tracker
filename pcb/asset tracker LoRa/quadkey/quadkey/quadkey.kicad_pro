@@ -358,8 +358,8 @@
         "microvia_diameter": 0.15,
         "microvia_drill": 0.1,
         "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(0, 0, 0, 0,000)",
+        "schematic_color": "rgba(0, 0, 0, 0,000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.25,
@@ -367,7 +367,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "net_colors": null
   },
@@ -409,7 +409,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0
+      "model_mode": 0,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
