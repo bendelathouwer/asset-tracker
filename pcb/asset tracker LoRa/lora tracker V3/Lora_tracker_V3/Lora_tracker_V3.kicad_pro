@@ -206,6 +206,7 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
@@ -238,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "voedingsprint.kicad_pro",
+    "filename": "Lora_tracker_V3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -253,8 +254,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "pcb_color": "rgb(0, 0, 0)",
-        "schematic_color": "rgb(0, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -262,7 +263,7 @@
       }
     ],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_colors": null
   },
@@ -278,6 +279,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
     "drawing": {
       "default_bus_thickness": 12.0,
       "default_junction_size": 36.0,
@@ -291,16 +293,19 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
@@ -316,8 +321,44 @@
   },
   "sheets": [
     [
-      "b5b68e10-3ab6-4013-87aa-2a2311291575",
+      "33130646-2a5c-43ce-9081-d44f489d0468",
       ""
+    ],
+    [
+      "70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d",
+      "voeding"
+    ],
+    [
+      "258d87aa-6d30-4733-9a38-0a50563ad836",
+      "DC_DC"
+    ],
+    [
+      "9e1daa8f-e871-4ed4-84ba-9dc01f293b6d",
+      "beweging"
+    ],
+    [
+      "201da5a3-4924-43f8-ac6f-de7e8fac4fc6",
+      "IO"
+    ],
+    [
+      "cd5d668a-aab0-482d-a799-22fb66102859",
+      "Lora_RFM"
+    ],
+    [
+      "3af824f8-4ae6-4b09-b95d-a0de7674cd0a",
+      "esp32"
+    ],
+    [
+      "5c246227-bb65-49bc-a678-7a55c723a2a1",
+      "GPS"
+    ],
+    [
+      "4aa53133-ff19-4b46-883c-8942f038163d",
+      "MCU"
+    ],
+    [
+      "12e31b9b-4d4f-4d13-8ae1-726e886cc163",
+      "curent meseurment "
     ]
   ],
   "text_variables": {}
