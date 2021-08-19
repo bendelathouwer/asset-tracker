@@ -1029,6 +1029,7 @@
       (uuid 0116bc5e-adaa-4501-ab5c-22e053e1fa81)
     )
   )
+<<<<<<< Updated upstream
 
   (sheet (at 170.18 50.165) (size 31.115 32.385) (fields_autoplaced)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
@@ -1041,4 +1042,6 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
+=======
+>>>>>>> Stashed changes
 )

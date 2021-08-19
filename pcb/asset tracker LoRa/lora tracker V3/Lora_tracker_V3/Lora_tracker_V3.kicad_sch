@@ -565,7 +565,10 @@
     (path "/3af824f8-4ae6-4b09-b95d-a0de7674cd0a" (page "7"))
     (path "/5c246227-bb65-49bc-a678-7a55c723a2a1" (page "8"))
     (path "/4aa53133-ff19-4b46-883c-8942f038163d" (page "9"))
+<<<<<<< Updated upstream
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/12e31b9b-4d4f-4d13-8ae1-726e886cc163" (page "10"))
+=======
+>>>>>>> Stashed changes
   )
 
   (symbol_instances

@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -10,7 +10,11 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
+<<<<<<< Updated upstream
       "zones": 0.4399999976158142
+=======
+      "zones": 0.4699999988079071
+>>>>>>> Stashed changes
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -63,7 +67,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "00010ba_80000001",
     "zone_display_mode": 0
   },
   "meta": {
