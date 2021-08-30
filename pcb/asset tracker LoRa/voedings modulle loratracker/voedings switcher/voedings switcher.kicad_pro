@@ -361,14 +361,14 @@
         "name": "Default",
         "pcb_color": "rgb(0, 0, 0)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.25,
+        "track_width": 0.15,
         "via_diameter": 0.6,
-        "via_drill": 0.25,
+        "via_drill": 0.35,
         "wire_width": 6.0
       }
     ],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_colors": null
   },

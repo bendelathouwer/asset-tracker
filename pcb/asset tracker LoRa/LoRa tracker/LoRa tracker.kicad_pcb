@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210424) (generator pcbnew)
+(kicad_pcb (version 20210722) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -2165,20 +2165,20 @@
     (attr smd)
     (fp_text reference "REF**" (at 0 -2.54) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 67cc0cc9-2ca9-4d3b-9742-c99a376e6613)
+      (tstamp f6f21b28-94cb-4ef5-853e-631bb59eaae2)
     )
     (fp_text value "Fiducial_1mm_Mask3mm" (at 0 2.286) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a6835f27-0d70-491c-a92a-dc39d3f93062)
+      (tstamp d8c2fce5-ee5f-4a7e-8895-519374febf61)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
-      (tstamp 4067b071-80cc-4b97-b372-140dc9002b6a)
+      (tstamp 46e3cef5-b518-4135-bd97-aa6c6c7dc5a5)
     )
-    (fp_circle (center 0 0) (end 1.75 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 330d3377-4b40-44f7-ac0a-1437e876f250))
-    (fp_circle (center 0 0) (end 1.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 11c1262c-3068-406d-a724-0b2e8a0acc84))
+    (fp_circle (center 0 0) (end 1.75 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 33912ae4-f224-439a-a8cd-30e1ab084816))
+    (fp_circle (center 0 0) (end 1.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 84be1864-5d28-4583-bb07-0e1b6d958a53))
     (pad "" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask")
-      (solder_mask_margin 1) (clearance 1) (tstamp fe682cff-89b8-43e7-89e9-86b359887ed2))
+      (solder_mask_margin 1) (clearance 1) (tstamp 028299d6-2d13-46cc-a283-68d3011733e2))
   )
 
   (footprint "vanalles:0603" (layer "F.Cu")
@@ -2487,20 +2487,20 @@
     (attr smd)
     (fp_text reference "REF**" (at 0 -2.54) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 67cc0cc9-2ca9-4d3b-9742-c99a376e6613)
+      (tstamp 700a6c2a-00e7-45c0-a3b1-bab634d4361b)
     )
     (fp_text value "Fiducial_1mm_Mask3mm" (at 0 2.286) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a6835f27-0d70-491c-a92a-dc39d3f93062)
+      (tstamp 9de7041b-54cd-449f-b983-7cb6b5224ebc)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
-      (tstamp 4067b071-80cc-4b97-b372-140dc9002b6a)
+      (tstamp 104ce5e6-62e6-4c9f-875a-c207a3fc3a72)
     )
-    (fp_circle (center 0 0) (end 1.75 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 330d3377-4b40-44f7-ac0a-1437e876f250))
-    (fp_circle (center 0 0) (end 1.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 11c1262c-3068-406d-a724-0b2e8a0acc84))
+    (fp_circle (center 0 0) (end 1.75 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 5ea90ebf-3f40-4b41-89e4-9939b18b0e67))
+    (fp_circle (center 0 0) (end 1.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 495843c4-1394-4412-9b00-a134dd52c43e))
     (pad "" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask")
-      (solder_mask_margin 1) (clearance 1) (tstamp fe682cff-89b8-43e7-89e9-86b359887ed2))
+      (solder_mask_margin 1) (clearance 1) (tstamp 11b5456e-1b2d-4b84-abdb-5e81adb73357))
   )
 
   (footprint "vanalles:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (layer "F.Cu")

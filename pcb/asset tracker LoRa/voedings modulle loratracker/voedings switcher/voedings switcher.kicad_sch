@@ -1190,9 +1190,6 @@
     (path "/26e1291c-214c-41ef-986d-78e1106ac5cb/767f914e-c787-4c4c-a43f-9fcff56e7e72"
       (reference "#PWR0112") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/57d01ba5-af7a-4746-a1e3-43cd30dc4747"
-      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/4578e82e-b17f-4510-9756-1f8d2108c401"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
@@ -1231,12 +1228,6 @@
     )
     (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/59a2c776-ddd5-4675-abda-17e33f3edf4a"
       (reference "C7") (unit 1) (value "1uF") (footprint "vanalles:0603")
-    )
-    (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/031469dc-3677-4df2-b7d2-a5c74ae221fd"
-      (reference "C8") (unit 1) (value "6.8pF") (footprint "vanalles:0603")
-    )
-    (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/fdfcf4f9-4ec0-4f08-9811-3183d2d989d9"
-      (reference "C9") (unit 1) (value "6.8pF") (footprint "vanalles:0603")
     )
     (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/e5b1dbb1-bd36-41cf-a811-517b8df3a9a3"
       (reference "CON1") (unit 1) (value "jtag") (footprint "connectors_user:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical")
@@ -1300,9 +1291,6 @@
     )
     (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/1ed94271-e45f-4497-8a09-28648fc9aa13"
       (reference "U4") (unit 1) (value "STM32L052K6Tx") (footprint "halfgeleiders:QFP32P80_900X900X160L60X37N")
-    )
-    (path "/b04b8752-3c3d-40d5-a512-14142a0fd0cf/5fccc346-9c3e-4ef7-ae1b-e629a80c9dfb"
-      (reference "Y1") (unit 1) (value "32khz") (footprint "vanalles:crystal tht")
     )
     (path "/a5a6b075-b381-4de0-8cb2-1f154fbb764c"
       (reference "con1") (unit 1) (value "screw terminal") (footprint "connectors_user:2pin_screw")

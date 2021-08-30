@@ -971,7 +971,7 @@
     (uuid e1628a19-4f78-49c4-a464-02f8fed09e2a)
   )
 
-  (symbol (lib_id "power:+3V3") (at 57.15 148.59 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 57.15 148.59 0)
     (in_bom yes) (on_board yes)
     (uuid 176a03d5-5236-443e-b2a7-1d5e85b5b798)
     (property "Reference" "#PWR0119" (id 0) (at 57.15 152.4 0)
@@ -987,7 +987,7 @@
     (pin "1" (uuid f7cc60fc-db53-44d5-bafc-df93392fe295))
   )
 
-  (symbol (lib_id "power:+3V3") (at 73.66 73.66 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 73.66 73.66 0)
     (in_bom yes) (on_board yes)
     (uuid 0e620303-338e-4e64-aaa5-be69c1029095)
     (property "Reference" "#PWR0120" (id 0) (at 73.66 77.47 0)
@@ -1003,7 +1003,7 @@
     (pin "1" (uuid 2077d103-67fe-4cbf-a437-7c915798538e))
   )
 
-  (symbol (lib_id "power:VDC") (at 92.71 25.4 0) (unit 1)
+  (symbol (lib_id "power:VDC") (at 92.71 25.4 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 03d49c0f-3d18-4748-b00e-06ba71c3f83c)
     (property "Reference" "#PWR0122" (id 0) (at 92.71 27.94 0)
@@ -1019,7 +1019,7 @@
     (pin "1" (uuid e3d9db07-5d1e-4158-a0f6-c169c8f1e849))
   )
 
-  (symbol (lib_id "power:+3V3") (at 99.06 80.01 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 99.06 80.01 0)
     (in_bom yes) (on_board yes)
     (uuid 629361a7-67d7-4573-a327-9866681c728e)
     (property "Reference" "#PWR0121" (id 0) (at 99.06 83.82 0)
@@ -1035,7 +1035,7 @@
     (pin "1" (uuid 88ab29f8-19b4-4f69-9623-5fb775c1cc80))
   )
 
-  (symbol (lib_id "power:+3V3") (at 214.63 24.13 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 214.63 24.13 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9bb581c4-cb43-41d2-9b39-508a16cbdb60)
     (property "Reference" "#PWR01" (id 0) (at 214.63 27.94 0)
@@ -1051,7 +1051,7 @@
     (pin "1" (uuid e150b6cd-ab20-4ab1-9cb6-51b95c3a55a8))
   )
 
-  (symbol (lib_id "power:+3V3") (at 223.52 71.12 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 223.52 71.12 0)
     (in_bom yes) (on_board yes)
     (uuid c331bb45-eb02-4e09-8369-7a7604766aa9)
     (property "Reference" "#PWR0156" (id 0) (at 223.52 74.93 0)
@@ -1067,7 +1067,7 @@
     (pin "1" (uuid 412d6340-660c-4f6f-9ea6-e49279fdced5))
   )
 
-  (symbol (lib_id "power:+3V3") (at 242.57 25.4 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 242.57 25.4 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 267f2c52-1b8a-43de-b362-39908ace7429)
     (property "Reference" "#PWR03" (id 0) (at 242.57 29.21 0)
@@ -1083,7 +1083,7 @@
     (pin "1" (uuid ec8ac00f-f64d-4477-9cd1-a13b5c008268))
   )
 
-  (symbol (lib_id "power:GND") (at 35.56 176.53 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 35.56 176.53 0)
     (in_bom yes) (on_board yes)
     (uuid caf73015-2302-452a-9a61-41e2973b5df5)
     (property "Reference" "#PWR0117" (id 0) (at 35.56 182.88 0)
@@ -1099,7 +1099,7 @@
     (pin "1" (uuid 73c4f1aa-52ef-4de9-ba7e-67eee5efd6b9))
   )
 
-  (symbol (lib_id "power:GND") (at 57.15 180.34 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 57.15 180.34 0)
     (in_bom yes) (on_board yes)
     (uuid 1b0882de-f5c2-4fbd-a696-d485f3becad8)
     (property "Reference" "#PWR0118" (id 0) (at 57.15 186.69 0)
@@ -1115,7 +1115,7 @@
     (pin "1" (uuid 2f6d5520-586b-491e-b6ee-f18627f19f90))
   )
 
-  (symbol (lib_id "power:GND") (at 58.42 54.61 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 58.42 54.61 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 027b0b1c-35b8-4ffa-8121-873c4bf76eba)
     (property "Reference" "#PWR0123" (id 0) (at 58.42 60.96 0)
@@ -1131,7 +1131,7 @@
     (pin "1" (uuid af0f66b6-5822-403c-91d6-d9a55a13e551))
   )
 
-  (symbol (lib_id "power:GND") (at 91.44 55.88 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 91.44 55.88 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9ca3ecf7-7bdc-4d50-b489-e56f11141d52)
     (property "Reference" "#PWR0124" (id 0) (at 91.44 62.23 0)
@@ -1147,7 +1147,7 @@
     (pin "1" (uuid fd4b56b5-830e-44b6-8da2-0c03110ffa74))
   )
 
-  (symbol (lib_id "power:GND") (at 99.06 118.11 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 99.06 118.11 0)
     (in_bom yes) (on_board yes)
     (uuid 67d1e817-01cd-4532-aa85-18fe82ba1fb3)
     (property "Reference" "#PWR0116" (id 0) (at 99.06 124.46 0)
@@ -1163,7 +1163,7 @@
     (pin "1" (uuid 8015a7d5-e319-4a82-93f6-d3095721f29c))
   )
 
-  (symbol (lib_id "power:GND") (at 214.63 41.91 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 214.63 41.91 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 75670db1-e384-4ed7-944a-83e92731250c)
     (property "Reference" "#PWR02" (id 0) (at 214.63 48.26 0)
@@ -1179,7 +1179,7 @@
     (pin "1" (uuid d361ad9b-f9b8-4820-bf27-f27ebce484c8))
   )
 
-  (symbol (lib_id "power:GND") (at 242.57 43.18 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 242.57 43.18 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 087b65ae-c725-48d4-9a48-66c40667e316)
     (property "Reference" "#PWR04" (id 0) (at 242.57 49.53 0)
@@ -1195,7 +1195,7 @@
     (pin "1" (uuid b43f35ea-01e2-43a9-aee7-8efcaa806144))
   )
 
-  (symbol (lib_id "power:GND") (at 260.35 87.63 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 260.35 87.63 0)
     (in_bom yes) (on_board yes)
     (uuid 0dcab7b7-0cef-4818-9ef6-5275f720475e)
     (property "Reference" "#PWR0155" (id 0) (at 260.35 93.98 0)
@@ -1211,7 +1211,7 @@
     (pin "1" (uuid 9dac1732-7531-4cfc-b1b5-3f6241f0cb69))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 35.56 167.64 0) (unit 1)
+  (symbol (lib_id "Device:R_Small_US") (at 35.56 167.64 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4ea00160-b591-4b85-82d6-a416c79cf994)
     (property "Reference" "R2" (id 0) (at 38.1 167.0049 0)
@@ -1230,7 +1230,7 @@
     (pin "2" (uuid 2063a28f-1777-4cc3-b2f7-33f5eb401971))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 54.61 41.91 90) (unit 1)
+  (symbol (lib_id "Device:R_Small_US") (at 54.61 41.91 90)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 672c1d57-0b15-430c-93fe-1ad85d729fad)
     (property "Reference" "R3" (id 0) (at 54.61 36.83 90))
@@ -1245,7 +1245,7 @@
     (pin "2" (uuid 181327f3-a65d-4839-ab01-61602c338b0b))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 66.04 86.36 0) (unit 1)
+  (symbol (lib_id "Device:R_Small_US") (at 66.04 86.36 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5ff63a7a-aca2-451d-83c0-6b2fc6896a65)
     (property "Reference" "R4" (id 0) (at 68.58 85.7249 0)
@@ -1264,7 +1264,7 @@
     (pin "2" (uuid 65d21ba6-8ce7-4608-9b99-78d46e551a86))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 80.01 86.36 0) (unit 1)
+  (symbol (lib_id "Device:R_Small_US") (at 80.01 86.36 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 37f0f0a0-85e6-4997-aa69-1bc23d5b73b9)
     (property "Reference" "R5" (id 0) (at 82.55 85.7249 0)
@@ -1283,7 +1283,7 @@
     (pin "2" (uuid 4dbeb2a8-322d-4eff-a9f2-58aed028ec2b))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 207.01 31.75 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 207.01 31.75 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3aa71e0-cec8-4c8e-93ea-587bbc57ad7b)
     (property "Reference" "C28" (id 0) (at 209.55 31.1149 0)
@@ -1302,7 +1302,7 @@
     (pin "2" (uuid e66682a3-667f-4915-ab6b-d8224bdbf66c))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 219.71 31.75 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 219.71 31.75 0)
     (in_bom yes) (on_board yes)
     (uuid 0d5482ae-3885-4691-9332-5378b7cfef32)
     (property "Reference" "C29" (id 0) (at 222.25 31.1149 0)
@@ -1321,7 +1321,7 @@
     (pin "2" (uuid 7cbb06d0-084b-4901-8107-18a2fc123736))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 234.95 33.02 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 234.95 33.02 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7ea6d8c6-a1b0-4a37-a0b1-f9a8a5e4c812)
     (property "Reference" "C30" (id 0) (at 237.49 32.3849 0)
@@ -1340,7 +1340,7 @@
     (pin "2" (uuid e5611709-d09e-4c47-9791-74234c373cc6))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 247.65 33.02 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 247.65 33.02 0)
     (in_bom yes) (on_board yes)
     (uuid 503bf9b6-759b-4512-ab36-9b5f8705b593)
     (property "Reference" "C31" (id 0) (at 250.19 32.3849 0)
@@ -1359,7 +1359,7 @@
     (pin "2" (uuid 3e85f46b-9038-47e1-ab91-687a21ea870f))
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 104.14 39.37 0) (unit 1)
+  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 104.14 39.37 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 96d49a90-3ee1-4a17-afd4-25ee001fc07b)
     (property "Reference" "J2" (id 0) (at 106.68 40.0049 0)
@@ -1378,7 +1378,7 @@
     (pin "2" (uuid f752a40b-bf2a-45ad-9e4c-446d22b2ca0a))
   )
 
-  (symbol (lib_id "vanalles:buzzer") (at 76.2 170.18 0) (unit 1)
+  (symbol (lib_id "vanalles:buzzer") (at 76.2 170.18 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f8624772-fda5-443f-b869-f8d4635f7afb)
     (property "Reference" "PZ1" (id 0) (at 83.82 171.4499 0)
@@ -1397,13 +1397,13 @@
     (pin "2" (uuid 6fdbf149-480c-4ead-aa3e-0de1a78d0ae7))
   )
 
-  (symbol (lib_id "Halfgelijders:BSS138") (at 55.88 160.02 0) (unit 1)
+  (symbol (lib_id "Halfgelijders:BSS138") (at 55.88 160.02 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a1425e99-ccc6-4118-b644-739b8bd505a7)
-    (property "Reference" "Q1" (id 0) (at 60.96 159.3849 0)
+    (property "Reference" "Q1" (id 0) (at 60.96 158.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSS138" (id 1) (at 60.96 161.9249 0)
+    (property "Value" "BSS138" (id 1) (at 60.96 161.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "halfgeleiders:sot-23," (id 2) (at 55.88 160.02 0)
@@ -1417,7 +1417,7 @@
     (pin "3" (uuid 2dedc96d-4c69-48b6-b66d-e9dda6bb90b7))
   )
 
-  (symbol (lib_id "Halfgelijders:ATECC608B") (at 245.11 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Halfgelijders:ATECC608B") (at 245.11 83.82 0) (mirror y)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 55d07bbb-2ef2-4b66-bac7-29180ecc208d)
     (property "Reference" "U9" (id 0) (at 242.57 74.93 0))
@@ -1438,7 +1438,7 @@
     (pin "8" (uuid 19271d59-f7f6-41c2-a6c9-d207d2977e1f))
   )
 
-  (symbol (lib_id "Halfgelijders:G3VM-61HR2(TR05)") (at 66.04 41.91 0) (unit 1)
+  (symbol (lib_id "Halfgelijders:G3VM-61HR2(TR05)") (at 66.04 41.91 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6f0942a0-2202-4e7f-8ca1-f5a3d8b2211a)
     (property "Reference" "U4" (id 0) (at 75.565 36.83 0))
@@ -1457,7 +1457,7 @@
     (pin "6" (uuid 40aa96bf-cabb-404e-b5f5-b62a7b843725))
   )
 
-  (symbol (lib_id "Halfgelijders:DS28CM00R-A00+T") (at 99.06 96.52 0) (unit 1)
+  (symbol (lib_id "Halfgelijders:DS28CM00R-A00+T") (at 99.06 96.52 0)
     (in_bom yes) (on_board yes)
     (uuid dee06b06-7321-4cb2-968e-ee7b31210109)
     (property "Reference" "U5" (id 0) (at 109.22 95.2499 0)
