@@ -712,7 +712,7 @@
     (uuid 67e2e7df-e32f-4e80-a6c9-6f02386f136a)
   )
 
-  (hierarchical_label "VIN" (shape input) (at 30.48 57.785 180)
+  (hierarchical_label "VIN DC_DC" (shape input) (at 30.48 57.785 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d7f4048c-ca8d-48df-8314-657e610adf62)
   )
