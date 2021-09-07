@@ -1,0 +1,169 @@
+Added Component: Designator=BAT1(jst 2pin)
+Added Component: Designator=C1(0603)
+Added Component: Designator=C2(0603)
+Added Component: Designator=C3(0603)
+Added Component: Designator=C4(CAPC1005X04L)
+Added Component: Designator=C5(0603)
+Added Component: Designator=C6(CAPC1005X04L)
+Added Component: Designator=C7(CAPC1005X04L)
+Added Component: Designator=C8(0603)
+Added Component: Designator=CON1(muratta)
+Added Component: Designator=CON2(microusb)
+Added Component: Designator=CON?(Tagconnect)
+Added Component: Designator=D1(Diode)
+Added Component: Designator=D2(Diode)
+Added Component: Designator=D3(Diode)
+Added Component: Designator=D4(Diode)
+Added Component: Designator=D5(Diode)
+Added Component: Designator=D6(Diode)
+Added Component: Designator=L1(0603)
+Added Component: Designator=LED1(LED)
+Added Component: Designator=M1(ESP32S_W)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=R1(CAPC1005X04L)
+Added Component: Designator=R2(0603)
+Added Component: Designator=R3(0603)
+Added Component: Designator=R4(0603)
+Added Component: Designator=R5(0603)
+Added Component: Designator=R6(0603)
+Added Component: Designator=R7(0603)
+Added Component: Designator=R8(0603)
+Added Component: Designator=R?(0603)
+Added Component: Designator=U1(AP2112 sot25)
+Added Component: Designator=U2(MCP73831/2)
+Added Component: Designator=u3(AP2112 sot25)
+Added Pin To Net: NetName=GND Pin=BAT1-1
+Added Pin To Net: NetName=VBAT Pin=BAT1-2
+Added Pin To Net: NetName=VBAT Pin=BAT1-2
+Added Pin To Net: NetName=VBAT Pin=BAT1-2
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_1 Pin=C4-1
+Added Pin To Net: NetName=NetC3_2 Pin=C4-2
+Added Pin To Net: NetName=NetC1_1 Pin=C5-1
+Added Pin To Net: NetName=NetC1_2 Pin=C5-2
+Added Pin To Net: NetName=NetC1_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC2_2 Pin=C7-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=3V3 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=NetC2_2 Pin=CON1-1
+Added Pin To Net: NetName=NetC1_2 Pin=CON1-2
+Added Pin To Net: NetName=NetCON2_1 Pin=CON2-1
+Added Pin To Net: NetName=GND Pin=CON2-5
+Added Pin To Net: NetName=GND Pin=CON2-5
+Added Pin To Net: NetName=GND Pin=CON2-5
+Added Pin To Net: NetName=GND Pin=CON2-5
+Added Pin To Net: NetName=GND Pin=CON2-5
+Added Pin To Net: NetName=3V3 Pin=CON?-1
+Added Pin To Net: NetName=GND Pin=CON?-6
+Added Pin To Net: NetName=5V Pin=D1-1
+Added Pin To Net: NetName=VBUS Pin=D1-2
+Added Pin To Net: NetName=NetC2_2 Pin=D2-1
+Added Pin To Net: NetName=NetC3_1 Pin=D2-2
+Added Pin To Net: NetName=NetC2_1 Pin=D3-1
+Added Pin To Net: NetName=NetC3_1 Pin=D3-2
+Added Pin To Net: NetName=NetC3_2 Pin=D4-1
+Added Pin To Net: NetName=NetC2_1 Pin=D4-2
+Added Pin To Net: NetName=NetC3_2 Pin=D5-1
+Added Pin To Net: NetName=NetC2_2 Pin=D5-2
+Added Pin To Net: NetName=VBUS Pin=D6-1
+Added Pin To Net: NetName=VBAT Pin=D6-2
+Added Pin To Net: NetName=VBUS Pin=L1-1
+Added Pin To Net: NetName=NetCON2_1 Pin=L1-2
+Added Pin To Net: NetName=VBUS Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=M1-1
+Added Pin To Net: NetName=3V3 Pin=M1-2
+Added Pin To Net: NetName=GND Pin=M1-15
+Added Pin To Net: NetName=GND Pin=M1-38
+Added Pin To Net: NetName=GND Pin=M1-101
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=3V3 Pin=R2-1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetR3_2 Pin=R4-2
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetLED1_2 Pin=R5-2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=VBAT Pin=R6-2
+Added Pin To Net: NetName=VBAT Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=3V3 Pin=R?-1
+Added Pin To Net: NetName=NetC3_1 Pin=U1-1
+Added Pin To Net: NetName=NetC3_1 Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=NetC3_1 Pin=U1-3
+Added Pin To Net: NetName=5V Pin=U1-4
+Added Pin To Net: NetName=5V Pin=U1-5
+Added Pin To Net: NetName=NetR5_1 Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=VBAT Pin=U2-3
+Added Pin To Net: NetName=VBUS Pin=U2-4
+Added Pin To Net: NetName=NetR3_1 Pin=U2-5
+Added Pin To Net: NetName=VBAT Pin=u3-1
+Added Pin To Net: NetName=VBAT Pin=u3-1
+Added Pin To Net: NetName=GND Pin=u3-2
+Added Pin To Net: NetName=NetR6_1 Pin=u3-3
+Added Pin To Net: NetName=3V3 Pin=u3-5
+Added Pin To Net: NetName=EN Pin=CON?-3
+Added Pin To Net: NetName=EN Pin=M1-3
+Added Pin To Net: NetName=EN Pin=R2-2
+Added Net: Name=EN
+Added Pin To Net: NetName=GPIO0 Pin=CON?-2
+Added Pin To Net: NetName=GPIO0 Pin=M1-25
+Added Pin To Net: NetName=GPIO0 Pin=R?-2
+Added Net: Name=GPIO0
+Added Pin To Net: NetName=NetM1_11 Pin=M1-11
+Added Pin To Net: NetName=NetM1_11 Pin=R7-1
+Added Pin To Net: NetName=NetM1_11 Pin=R8-2
+Added Net: Name=NetM1_11
+Added Pin To Net: NetName=RX Pin=CON?-4
+Added Pin To Net: NetName=RX Pin=M1-34
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=CON?-5
+Added Pin To Net: NetName=TX Pin=M1-35
+Added Net: Name=TX
+Added Member To Class: ClassName=charger Member=Component BAT1 batery
+Added Member To Class: ClassName=voeding Member=Component C1 0,022uF
+Added Member To Class: ClassName=voeding Member=Component C2 470pF
+Added Member To Class: ClassName=voeding Member=Component C3 10uF
+Added Member To Class: ClassName=voeding Member=Component C4 10uF
+Added Member To Class: ClassName=voeding Member=Component C5 0,022uF
+Added Member To Class: ClassName=voeding Member=Component C6 47nF
+Added Member To Class: ClassName=voeding Member=Component C7 47nF
+Added Member To Class: ClassName=charger Member=Component C8 10uF
+Added Member To Class: ClassName=voeding Member=Component CON1 screw connector
+Added Member To Class: ClassName=charger Member=Component CON2 USB
+Added Member To Class: ClassName=Designator Member=Component CON? Tagconnect
+Added Member To Class: ClassName=voeding Member=Component D1 MBR0540-TP
+Added Member To Class: ClassName=voeding Member=Component D2 MBR0540-TP
+Added Member To Class: ClassName=voeding Member=Component D3 MBR0540-TP
+Added Member To Class: ClassName=voeding Member=Component D4 MBR0540-TP
+Added Member To Class: ClassName=voeding Member=Component D5 MBR0540-TP
+Added Member To Class: ClassName=charger Member=Component D6 FC4SDCBMF6.0-T1
+Added Member To Class: ClassName=charger Member=Component L1 ferite bead 
+Added Member To Class: ClassName=charger Member=Component LED1 LED
+Added Member To Class: ClassName=Designator Member=Component M1 ESP32S_Module
+Added Member To Class: ClassName=voeding Member=Component R1 10K
+Added Member To Class: ClassName=Designator Member=Component R2 1k
+Added Member To Class: ClassName=charger Member=Component R3 1k
+Added Member To Class: ClassName=charger Member=Component R4 1k
+Added Member To Class: ClassName=charger Member=Component R5 1k
+Added Member To Class: ClassName=charger Member=Component R6 1k
+Added Member To Class: ClassName=charger Member=Component R7 resistor
+Added Member To Class: ClassName=charger Member=Component R8 resistor
+Added Member To Class: ClassName=Designator Member=Component R? 1k
+Added Member To Class: ClassName=voeding Member=Component U1 MCP1755T-500E/OT
+Added Member To Class: ClassName=charger Member=Component U2 MCP73831
+Added Member To Class: ClassName=charger Member=Component u3 ap2112 SOT25
+Added Room: Name=charger
+Added Room: Name=Designator
+Added Room: Name=voeding

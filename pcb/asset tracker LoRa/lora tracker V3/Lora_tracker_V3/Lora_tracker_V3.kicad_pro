@@ -298,7 +298,6 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
@@ -346,8 +345,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0,000)",
-        "schematic_color": "rgba(0, 0, 0, 0,000)",
+        "pcb_color": "rgb(0, 0, 0)",
+        "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -392,7 +391,7 @@
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "net_format_name": "",
     "ngspice": {

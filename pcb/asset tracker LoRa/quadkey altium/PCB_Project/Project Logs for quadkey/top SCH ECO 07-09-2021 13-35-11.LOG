@@ -1,0 +1,6 @@
+Remove Pin=CON3-2 From Net=GPIO0
+Remove Pin=CON3-3 From Net=EN
+Remove Pin=CON3-4 From Net=RX
+Remove Pin=CON3-5 From Net=TX
+Remove Pin=M1-34 From Net=RX
+Remove Pin=M1-35 From Net=TX
