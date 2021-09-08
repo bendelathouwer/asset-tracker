@@ -45,10 +45,20 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
+<<<<<<< Updated upstream
           "min_clearance": 0.508
+=======
+          "min_clearance": 0.39999999999999997
+>>>>>>> Stashed changes
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -78,8 +88,13 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+<<<<<<< Updated upstream
         "silk_over_copper": "error",
         "silk_overlap": "error",
+=======
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+>>>>>>> Stashed changes
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -110,8 +125,20 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
+<<<<<<< Updated upstream
       "track_widths": [],
       "via_dimensions": [],
+=======
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+>>>>>>> Stashed changes
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -337,7 +364,7 @@
     "classes": [
       {
         "bus_width": 6.0,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -345,11 +372,19 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
+<<<<<<< Updated upstream
         "pcb_color": "rgb(0, 0, 0)",
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
+=======
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.35,
+>>>>>>> Stashed changes
         "wire_width": 6.0
       }
     ],
