@@ -829,10 +829,10 @@
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/be166712-11b7-47f2-8d9e-85b4075fbc20"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
-    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/27046523-aefc-4f28-9c87-308140845093"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/d1e85a33-188d-40ab-9977-6e73a3cdbd05"
+      (reference "#PWR0106") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/b071f720-7834-4443-9989-b52b420fa940"
+    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/b4e71eb2-e298-4d8e-b2fe-7323845d9a4c"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/258d87aa-6d30-4733-9a38-0a50563ad836/05ce9abc-8a4e-4b70-ab61-b20f0f4d027d"
@@ -980,7 +980,7 @@
       (reference "#PWR0155") (unit 1) (value "GND") (footprint "")
     )
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/ded79f00-c6fe-4154-92df-33b0d93f6390"
-      (reference "#PWR?") (unit 1) (value "VDC") (footprint "")
+      (reference "#PWR0156") (unit 1) (value "VDC") (footprint "")
     )
     (path "/add0ef52-dbd6-47cd-aab4-877bccc3a5ac"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "connectors_user:ufl connector")
@@ -1081,8 +1081,11 @@
     (path "/201da5a3-4924-43f8-ac6f-de7e8fac4fc6/f8be60d3-8f83-4c62-9039-3c163e85e7e4"
       (reference "PZ1") (unit 1) (value "buzzer") (footprint "vanalles:PROSIGNAL_ABI-017-RC")
     )
-    (path "/201da5a3-4924-43f8-ac6f-de7e8fac4fc6/e97ca91d-5b5f-48ca-a445-ad8e615ae989"
-      (reference "Q1") (unit 1) (value "BSS84") (footprint "halfgeleiders:sot-23,")
+    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/56940ed2-67c4-47f3-b222-6826b96a2790"
+      (reference "Q2") (unit 1) (value "BSS138") (footprint "halfgeleiders:sot-23,")
+    )
+    (path "/201da5a3-4924-43f8-ac6f-de7e8fac4fc6/2e1a2e60-7f1b-4b17-94f7-4e5653e05768"
+      (reference "Q?") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/b947328c-187f-4132-83b5-92e40764acb3"
       (reference "R1") (unit 1) (value "0") (footprint "vanalles:0603RL")
@@ -1099,11 +1102,8 @@
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/48b558a7-5719-4f20-8ac6-10b042c2198b"
       (reference "R5") (unit 1) (value "58K") (footprint "vanalles:0603")
     )
-    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/968c5b29-4618-4358-95ef-363b4a8e07aa"
-      (reference "R6") (unit 1) (value "1K ohm ") (footprint "vanalles:0603")
-    )
-    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/58109fa1-79aa-4a3e-8be2-f87251af286e"
-      (reference "R7") (unit 1) (value "1Kohm") (footprint "vanalles:0603")
+    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/9ef70987-d636-4a40-b99b-e6af22e6529c"
+      (reference "R6") (unit 1) (value "10K") (footprint "vanalles:0603")
     )
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/258d87aa-6d30-4733-9a38-0a50563ad836/ab506133-6a41-4ef8-b017-9bcc7bb355c6"
       (reference "R8") (unit 1) (value "43.5Kohm/1%") (footprint "vanalles:0603")
@@ -1135,14 +1135,11 @@
     (path "/3af824f8-4ae6-4b09-b95d-a0de7674cd0a/23427135-b747-4c4a-a290-ede9270d1ad5"
       (reference "R17") (unit 1) (value "NM") (footprint "vanalles:0603RL")
     )
+    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/1e5acfa6-55af-4aee-98b3-e8174b50179b"
+      (reference "RL1") (unit 1) (value "Relais") (footprint "vanalles:G5V-1")
+    )
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/b4465a5b-65c0-430d-9975-eeb648d7eda6"
       (reference "RV1") (unit 1) (value "100K") (footprint "vanalles:3314G-1-201E bourns trimmer")
-    )
-    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/c4a79f37-24f3-4115-8da9-fa8fb63517e2"
-      (reference "U1") (unit 1) (value "TLP3542") (footprint "halfgeleiders:TLP3542")
-    )
-    (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/e47874be-180b-49c0-8021-9bf180ee2232"
-      (reference "U2") (unit 1) (value "TLP3542") (footprint "halfgeleiders:TLP3542")
     )
     (path "/70c6b1b6-42b8-4590-abb3-9b8d7f6a7e9d/258d87aa-6d30-4733-9a38-0a50563ad836/d224d03e-1f4b-4227-9b2a-ad61ad9b6f67"
       (reference "U3") (unit 1) (value "MAX5035AUSA") (footprint "halfgeleiders:soic HV clearance")
