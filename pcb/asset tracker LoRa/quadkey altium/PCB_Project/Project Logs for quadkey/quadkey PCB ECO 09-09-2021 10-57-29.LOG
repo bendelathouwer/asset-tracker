@@ -1,0 +1,15 @@
+Added Component: Designator=CON3(Tagconnect)
+Added Pin To Net: NetName=3V3 Pin=CON3-1
+Added Pin To Net: NetName=GPIO0 Pin=CON3-2
+Added Pin To Net: NetName=EN Pin=CON3-3
+Added Pin To Net: NetName=GND Pin=CON3-6
+Added Pin To Net: NetName=RX Pin=CON3-4
+Added Pin To Net: NetName=RX Pin=M1-34
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=CON3-5
+Added Pin To Net: NetName=TX Pin=M1-35
+Added Net: Name=TX
+Added Member To Class: ClassName=Designator Member=Component CON3 Tagconnect
+Added Room: Name=charger
+Added Room: Name=Designator
+Added Room: Name=voeding
