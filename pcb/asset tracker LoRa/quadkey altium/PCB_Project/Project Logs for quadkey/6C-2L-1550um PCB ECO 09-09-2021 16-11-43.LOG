@@ -1,0 +1,6 @@
+Added Component: Designator=BAT?(jst 2pin)
+Added Pin To Net: NetName=VBAT Pin=BAT?-1
+Added Pin To Net: NetName=GND Pin=BAT?-2
+Added Pin To Net: NetName=GND Pin=BAT?-2
+Added Pin To Net: NetName=GND Pin=BAT?-2
+Added Member To Class: ClassName=charger Member=Component BAT? batery
