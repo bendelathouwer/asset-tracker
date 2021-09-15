@@ -8,6 +8,6 @@
 #ifndef INC_IO_H_
 #define INC_IO_H_
 
-void startup(void);
-
+void ssr (int);
+void  noise(int);
 #endif /* INC_IO_H_ */

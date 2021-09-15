@@ -7,10 +7,30 @@
 
 #include "io.h"
 #include"stm32l0xx_hal.h"
+#include <stdio.h>
 
 
 
-void startup()
+void ssr (int power)
 {
-	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
+	if(power==1)
+	{
+		HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_SET);
+	}
+	if(power==0)
+	{
+		HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
+	}
+}
+
+void noise(int sound)
+{
+	if(sound == 1)
+	{
+		HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
+	}
+	if(sound == 0)
+	{
+		HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+	}
 }

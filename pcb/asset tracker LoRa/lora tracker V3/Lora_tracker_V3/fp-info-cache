@@ -1,4 +1,4 @@
-103871636817015
+105503160118512
 halfgeleiders
 ATSAMD21G18A-M
 
@@ -300,6 +300,13 @@ Small Outline Pkg (SOP), 0.65 mm pitch; 20 pin, 6.50 mm L X 4.39 mm W X 1.20 mm 
 0
 20
 20
+halfgeleiders
+STM32F407ZGT6
+
+
+0
+144
+144
 halfgeleiders
 STM32L552CCT6
 

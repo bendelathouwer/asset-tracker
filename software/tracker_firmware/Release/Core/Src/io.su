@@ -1,1 +1,2 @@
-io.c:13:6:startup	8	static
+io.c:14:6:ssr	8	static
+io.c:26:6:noise	8	static
