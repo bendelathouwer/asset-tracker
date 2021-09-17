@@ -1,4 +1,5 @@
 "./Core/Src/I2C.o"
+"./Core/Src/gps.o"
 "./Core/Src/io.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32l0xx_hal_msp.o"

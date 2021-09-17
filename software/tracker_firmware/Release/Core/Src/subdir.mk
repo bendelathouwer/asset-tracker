@@ -6,6 +6,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Core/Src/I2C.c \
+../Core/Src/gps.c \
 ../Core/Src/io.c \
 ../Core/Src/main.c \
 ../Core/Src/stm32l0xx_hal_msp.c \
@@ -16,6 +17,7 @@ C_SRCS += \
 
 OBJS += \
 ./Core/Src/I2C.o \
+./Core/Src/gps.o \
 ./Core/Src/io.o \
 ./Core/Src/main.o \
 ./Core/Src/stm32l0xx_hal_msp.o \
@@ -26,6 +28,7 @@ OBJS += \
 
 C_DEPS += \
 ./Core/Src/I2C.d \
+./Core/Src/gps.d \
 ./Core/Src/io.d \
 ./Core/Src/main.d \
 ./Core/Src/stm32l0xx_hal_msp.d \

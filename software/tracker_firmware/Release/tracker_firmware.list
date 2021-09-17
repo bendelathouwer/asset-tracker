@@ -810,8 +810,8 @@ Disassembly of section .text:
  80006e4:	4b1b      	ldr	r3, [pc, #108]	; (8000754 <main+0x1dc>)
  80006e6:	000a      	movs	r2, r1
  80006e8:	6003      	str	r3, [r0, #0]
- 80006ea:	23e1      	movs	r3, #225	; 0xe1
- 80006ec:	025b      	lsls	r3, r3, #9
+ 80006ea:	2396      	movs	r3, #150	; 0x96
+ 80006ec:	019b      	lsls	r3, r3, #6
  80006ee:	6043      	str	r3, [r0, #4]
  80006f0:	230c      	movs	r3, #12
  80006f2:	6081      	str	r1, [r0, #8]
