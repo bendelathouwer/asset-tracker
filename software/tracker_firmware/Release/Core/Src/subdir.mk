@@ -5,10 +5,10 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/I2C.c \
 ../Core/Src/gps.c \
 ../Core/Src/io.c \
 ../Core/Src/main.c \
+../Core/Src/rtc.c \
 ../Core/Src/stm32l0xx_hal_msp.c \
 ../Core/Src/stm32l0xx_it.c \
 ../Core/Src/syscalls.c \
@@ -16,10 +16,10 @@ C_SRCS += \
 ../Core/Src/system_stm32l0xx.c 
 
 OBJS += \
-./Core/Src/I2C.o \
 ./Core/Src/gps.o \
 ./Core/Src/io.o \
 ./Core/Src/main.o \
+./Core/Src/rtc.o \
 ./Core/Src/stm32l0xx_hal_msp.o \
 ./Core/Src/stm32l0xx_it.o \
 ./Core/Src/syscalls.o \
@@ -27,10 +27,10 @@ OBJS += \
 ./Core/Src/system_stm32l0xx.o 
 
 C_DEPS += \
-./Core/Src/I2C.d \
 ./Core/Src/gps.d \
 ./Core/Src/io.d \
 ./Core/Src/main.d \
+./Core/Src/rtc.d \
 ./Core/Src/stm32l0xx_hal_msp.d \
 ./Core/Src/stm32l0xx_it.d \
 ./Core/Src/syscalls.d \

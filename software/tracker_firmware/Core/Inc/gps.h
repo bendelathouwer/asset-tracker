@@ -7,7 +7,7 @@
 
 #ifndef INC_GPS_H_
 #define INC_GPS_H_
-
+void gpsinit(int,int,int,int,int,int);
 
 
 #endif /* INC_GPS_H_ */

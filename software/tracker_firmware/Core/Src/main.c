@@ -107,9 +107,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  noise (1);
-      HAL_Delay(1000);
-      noise (0);
+
 
 
     /* USER CODE END WHILE */
