@@ -19,7 +19,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
+#include "tracker.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -107,9 +107,16 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	 /*
+	  noise(1);
+	  HAL_Delay(50000);
+	  noise(0);
+*/
 
 
-
+		HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_SET);
+		HAL_Delay(5000);
+	  	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
