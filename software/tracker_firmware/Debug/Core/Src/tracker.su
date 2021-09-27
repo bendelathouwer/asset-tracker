@@ -1,2 +1,3 @@
-tracker.c:16:6:ssr	16	static
-tracker.c:28:6:noise	16	static
+tracker.c:18:6:ssr	16	static
+tracker.c:30:6:noise	16	static
+tracker.c:44:5:SetTime	48	static

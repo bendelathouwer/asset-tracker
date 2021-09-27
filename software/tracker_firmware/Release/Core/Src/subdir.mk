@@ -5,37 +5,31 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/gps.c \
-../Core/Src/io.c \
 ../Core/Src/main.c \
-../Core/Src/rtc.c \
 ../Core/Src/stm32l0xx_hal_msp.c \
 ../Core/Src/stm32l0xx_it.c \
 ../Core/Src/syscalls.c \
 ../Core/Src/sysmem.c \
-../Core/Src/system_stm32l0xx.c 
+../Core/Src/system_stm32l0xx.c \
+../Core/Src/tracker.c 
 
 OBJS += \
-./Core/Src/gps.o \
-./Core/Src/io.o \
 ./Core/Src/main.o \
-./Core/Src/rtc.o \
 ./Core/Src/stm32l0xx_hal_msp.o \
 ./Core/Src/stm32l0xx_it.o \
 ./Core/Src/syscalls.o \
 ./Core/Src/sysmem.o \
-./Core/Src/system_stm32l0xx.o 
+./Core/Src/system_stm32l0xx.o \
+./Core/Src/tracker.o 
 
 C_DEPS += \
-./Core/Src/gps.d \
-./Core/Src/io.d \
 ./Core/Src/main.d \
-./Core/Src/rtc.d \
 ./Core/Src/stm32l0xx_hal_msp.d \
 ./Core/Src/stm32l0xx_it.d \
 ./Core/Src/syscalls.d \
 ./Core/Src/sysmem.d \
-./Core/Src/system_stm32l0xx.d 
+./Core/Src/system_stm32l0xx.d \
+./Core/Src/tracker.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

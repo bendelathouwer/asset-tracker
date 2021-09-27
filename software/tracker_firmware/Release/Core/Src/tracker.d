@@ -1,4 +1,4 @@
-Core/Src/gps.o: ../Core/Src/gps.c ../Core/Inc/gps.h \
+Core/Src/tracker.o: ../Core/Src/tracker.c ../Core/Inc/tracker.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../Core/Inc/stm32l0xx_hal_conf.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h \
@@ -31,7 +31,7 @@ Core/Src/gps.o: ../Core/Src/gps.c ../Core/Inc/gps.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h
 
-../Core/Inc/gps.h:
+../Core/Inc/tracker.h:
 
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 

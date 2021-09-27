@@ -20,6 +20,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "tracker.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -101,22 +102,15 @@ int main(void)
   MX_SPI1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+  int errorcode = SetTime(0X0, 0X1, 0X0, 0X1, 0X9, 0X1, 0X1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	 /*
-	  noise(1);
-	  HAL_Delay(50000);
-	  noise(0);
-*/
 
-
-		HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_SET);
-		HAL_Delay(5000);
-	  	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -125,8 +119,8 @@ int main(void)
 }
 
 /**
-  * @brief System Clock Configuration
-  * @retval None
+  * @brief System Clock Configuration0
+-  * @retval None
   */
 void SystemClock_Config(void)
 {
@@ -374,10 +368,15 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOA, BUZZER_Pin|SSR_Pin|RESET_LORA_Pin|GPS_RESET_Pin
                           |GPS_WAKE_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : BUZZER_Pin SSR_Pin RESET_LORA_Pin GPS_RESET_Pin
-                           GPS_WAKE_Pin */
-  GPIO_InitStruct.Pin = BUZZER_Pin|SSR_Pin|RESET_LORA_Pin|GPS_RESET_Pin
-                          |GPS_WAKE_Pin;
+  /*Configure GPIO pins : BUZZER_Pin SSR_Pin */
+  GPIO_InitStruct.Pin = BUZZER_Pin|SSR_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : RESET_LORA_Pin GPS_RESET_Pin GPS_WAKE_Pin */
+  GPIO_InitStruct.Pin = RESET_LORA_Pin|GPS_RESET_Pin|GPS_WAKE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
