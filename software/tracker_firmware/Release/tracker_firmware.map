@@ -123,6 +123,7 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./Core/Src/tracker.o
  .text.ssr      0x0000000000000000       0x1a ./Core/Src/tracker.o
  .text.noise    0x0000000000000000       0x1a ./Core/Src/tracker.o
+ .text.GetTime  0x0000000000000000       0x24 ./Core/Src/tracker.o
  .text          0x0000000000000000       0x14 ./Core/Startup/startup_stm32l052k6tx.o
  .data          0x0000000000000000        0x0 ./Core/Startup/startup_stm32l052k6tx.o
  .bss           0x0000000000000000        0x0 ./Core/Startup/startup_stm32l052k6tx.o

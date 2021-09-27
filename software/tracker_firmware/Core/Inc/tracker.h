@@ -19,6 +19,6 @@ void ssr(int);
 
 //rtc functions
 
-int SetTime(int,int,int,int,int,int,int);
-in
+int  SetTime (int,int,int,int,int,int,int);
+void GetTime (void);
 #endif /* INC_TRACKER_H_ */

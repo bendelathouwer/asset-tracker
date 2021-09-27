@@ -41,7 +41,7 @@ void noise(int sound)
 
 
 // RTC functions-
-int SetTime(int hours , int minutes , int secondes , int DaylightSaving, int month, int day, int year)
+int  SetTime(int hours , int minutes , int secondes , int DaylightSaving, int month, int day, int year)
 {
 	 RTC_TimeTypeDef sTime;
 	 RTC_DateTypeDef sDate;
@@ -78,4 +78,12 @@ int SetTime(int hours , int minutes , int secondes , int DaylightSaving, int mon
 	  HAL_RTCEx_BKUPWrite(&hrtc, RTC_BKP_DR1, 0x32F2); // backup register
 
 	  return 0;
+}
+void GetTime()
+{
+	 RTC_TimeTypeDef gTime;
+	 RTC_DateTypeDef gDate;
+	 HAL_RTC_GetTime ( &hrtc, &gTime, RTC_FORMAT_BCD );
+	 HAL_RTC_GetDate ( &hrtc, &gDate, RTC_FORMAT_BCD );
+
 }
