@@ -2,8 +2,8 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.15,
+        "copper_line_width": 0.15,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -26,16 +26,16 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.048,
+          "height": 4.064,
+          "width": 4.064
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -57,6 +57,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -69,6 +70,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -84,9 +86,10 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "error",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -102,7 +105,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.075,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -112,24 +115,32 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.4,
+        0.6
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": [],
-    "viewports": []
+    "layer_presets": []
   },
   "boards": [],
   "cvpcb": {
@@ -345,26 +356,26 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "voedings switcher.kicad_pro",
+    "filename": "tracker shield.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 6.0,
-        "clearance": 0.15,
+        "bus_width": 12.0,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.15,
+        "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "pcb_color": "rgb(0, 0, 0)",
-        "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.15,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
         "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
@@ -379,7 +390,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../3d oudputs/voedings switcher/voedings switcher.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -387,10 +398,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
-      "dashed_lines_dash_length_ratio": 12.0,
-      "dashed_lines_gap_length_ratio": 3.0,
       "default_bus_thickness": 12.0,
-      "default_junction_size": 36.0,
+      "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
@@ -429,16 +438,28 @@
   },
   "sheets": [
     [
-      "a6f82914-f0e0-4dbc-bd83-90fac4f33fa7",
+      "52ede03f-db6c-4f3f-8f63-1d0a06d2e9c9",
       ""
     ],
     [
-      "26e1291c-214c-41ef-986d-78e1106ac5cb",
-      "dcdc"
+      "45f044cd-7aa2-4193-bb51-9a53506d16bd",
+      "arduino"
     ],
     [
-      "b04b8752-3c3d-40d5-a512-14142a0fd0cf",
-      "microcontroller"
+      "9807d03b-79ea-4b21-823b-47260be206f3",
+      "accelerometer"
+    ],
+    [
+      "60a12110-e5ab-468c-a612-2f2a739cef52",
+      "i2c devices"
+    ],
+    [
+      "f225d3d5-4549-4532-a226-535be9db1f29",
+      "lora"
+    ],
+    [
+      "cd1308f5-9505-4a45-945c-7892e3541ba0",
+      "GPS"
     ]
   ],
   "text_variables": {}

@@ -14,6 +14,15 @@ SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart1;
 
 //suport functions
+int GPSChecksumGen(const char* s)
+{
+	int c = 0;
+
+	    while (*s)
+	        c ^= *s++;
+
+	    return c;
+}
 //  io functions
 void ssr (int power)
 {

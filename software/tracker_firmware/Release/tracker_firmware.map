@@ -121,6 +121,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./Core/Src/tracker.o
  .data          0x0000000000000000        0x0 ./Core/Src/tracker.o
  .bss           0x0000000000000000        0x0 ./Core/Src/tracker.o
+ .text.GPSChecksumGen
+                0x0000000000000000       0x12 ./Core/Src/tracker.o
  .text.ssr      0x0000000000000000       0x1a ./Core/Src/tracker.o
  .text.noise    0x0000000000000000       0x1a ./Core/Src/tracker.o
  .text.GetTime  0x0000000000000000       0x24 ./Core/Src/tracker.o

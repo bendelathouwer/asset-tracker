@@ -1,4 +1,5 @@
-tracker.c:18:6:ssr	8	static
-tracker.c:30:6:noise	8	static
-tracker.c:44:6:SetTime	40	static
-tracker.c:82:6:GetTime	32	static
+tracker.c:17:5:GPSChecksumGen	0	static
+tracker.c:27:6:ssr	8	static
+tracker.c:39:6:noise	8	static
+tracker.c:53:6:SetTime	40	static
+tracker.c:91:6:GetTime	32	static

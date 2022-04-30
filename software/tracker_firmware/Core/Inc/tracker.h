@@ -9,7 +9,7 @@
 #define INC_TRACKER_H_
 
 // suport functions
-
+int GPSChecksumGen(const char*);
 
 
 //io functions
